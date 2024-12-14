@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: home
+title: Evolution of the network of actors in the film industry through time 
+subtitle: ImportNumpyAsPd
 ---
 
 ## DATA exploration 
