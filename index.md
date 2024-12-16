@@ -2,7 +2,7 @@
 layout: home
 title: Evolution of the network of actors in the film industry through time 
 subtitle: ImportNumpyAsPd
-cover-img: /assets/img/Image_chatgpt_network_time.webp
+cover-img: /assets/img/Image_chatgpt_network_time.jpg
 ---
 
 ## DATA exploration 
