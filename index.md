@@ -2,6 +2,7 @@
 layout: home
 title: Evolution of the network of actors in the film industry through time 
 subtitle: ImportNumpyAsPd
+cover-img: /assets/img/crepe.jpg
 ---
 
 ## DATA exploration 
