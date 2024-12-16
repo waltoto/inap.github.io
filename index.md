@@ -36,10 +36,10 @@ Now that we have a more clear view on our database, lets begin the analysis.
 
 ## Try to plot an interactive graph (2nd test)
 
-{% include_relative assets/int_plot/plotly_graph.html %} 
+{% include_relative plotly_graph.html %} 
 
 ## Try to plot interactive plot from jupyter notebook
-{% include_relative assets/assets/int_plot/iris_plot.html %} 
+{% include_relative iris_plot.html %} 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
