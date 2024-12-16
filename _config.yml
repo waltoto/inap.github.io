@@ -10,16 +10,16 @@
 ############################
 
 # Name of website
-title: ThePiratesOfTheStreet
+title: ImportNumpyAsPd
 
 # Your name to show in the footer
-author: ThePiratesOfTheStreet
+author: ImportNumpyAsPd
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Us: "aboutme"
+  # About Us: "aboutme"
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
     - The IMDB data: "https://developer.imdb.com/non-commercial-datasets/"
