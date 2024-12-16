@@ -34,7 +34,9 @@ Typically, the graph for the actor shows that around $10^5$ actors have played i
 
 Now that we have a more clear view on our database, lets begin the analysis.
 
+## Try to plot an interactive graph
 
+{ % include_relative plotly_graph.html % } 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
