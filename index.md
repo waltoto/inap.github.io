@@ -38,6 +38,9 @@ Now that we have a more clear view on our database, lets begin the analysis.
 
 {% include_relative plotly_graph.html %} 
 
+## Try to plot interactive plot from jupyter notebook
+{% include_relative iris_plot.html %} 
+
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
 [img1]: /assets/img/distribution-film.png
