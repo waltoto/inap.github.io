@@ -97,9 +97,9 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 <div id="selector-container" style="margin-top: 20px;">
     <select id="image-selector" style="width: 100%;">
-        <option value="0">Actor-Director Behaviour</option>
-        <option value="1">Actor-Movie Behaviour</option>
-        <option value="2">Actor-Gender Behaviour</option>
+        <option value=0>Actor-Director Behaviour</option>
+        <option value=1>Actor-Movie Behaviour</option>
+        <option value=2>Actor-Gender Behaviour</option>
     </select>
 </div>
 
