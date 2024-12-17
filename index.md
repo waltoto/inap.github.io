@@ -94,9 +94,6 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 ## Anotherother try 
 
-<div id="image-container">
-    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
-</div>
 
 <div id="selector-container" style="margin-top: 20px;">
     <select id="image-selector" style="width: 100%;">
@@ -105,6 +102,11 @@ Click on the `start` button to see the evolution of the newtork over time.
         <option value="2">Actor-Gender Behaviour</option>
     </select>
 </div>
+
+<div id="image-container">
+    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
+</div>
+
 
 <script src="test2.js"></script>
 
