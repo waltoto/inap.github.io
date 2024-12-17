@@ -45,10 +45,9 @@ Who do you think has played in 9 different languages throughout their career?
 
 ---
 
-#### Reveal the Answer
-Click to reveal:  
+#### Reveal the Answer  
 <details>
-  <summary>Show Answer</summary>
+  <summary>Click to show the answer</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/jackie_chan.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
