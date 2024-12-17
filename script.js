@@ -11,53 +11,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextImageButton = document.getElementById('next-image-button');
     const restartButton = document.getElementById('restart-button');
 
-    // Function to handle cycling logic
     const startCycling = () => {
-        // Start cycling only if not already started
+        console.log('Starting cycling...');
         if (!intervalId) {
             intervalId = setInterval(() => {
                 currentIndex++;
-
-                // Stop cycling if we've reached the last image
                 if (currentIndex >= images.length) {
+                    console.log('Reached the last image. Stopping cycling.');
                     clearInterval(intervalId);
-                    intervalId = null; // Reset intervalId to allow restarting
-                    currentIndex = images.length - 1; // Ensure index stays valid
+                    intervalId = null;
+                    currentIndex = images.length - 1;
                     return;
                 }
-
-                // Update the displayed image
+                console.log(`Switching to image ${currentIndex}`);
                 imageDisplay.src = images[currentIndex];
-            }, 2000); // 2-second interval
+            }, 2000);
         }
     };
 
-    // Event listener for "Next Image" button
     nextImageButton.addEventListener('click', () => {
-        // Immediately show the next image on button click
         if (currentIndex < images.length - 1) {
             currentIndex++;
+            console.log(`Next button clicked. Displaying image ${currentIndex}`);
             imageDisplay.src = images[currentIndex];
         } else {
-            // Stop cycling if it's the last image
+            console.log('Reached the last image. Stopping cycling.');
             clearInterval(intervalId);
-            intervalId = null; // Reset intervalId to allow restarting
+            intervalId = null;
         }
-
-        // Start automatic cycling
         startCycling();
     });
 
-    // Event listener for "Restart" button
     restartButton.addEventListener('click', () => {
-        // Reset the index and clear any ongoing intervals
+        console.log('Restart button clicked.');
         clearInterval(intervalId);
-        intervalId = null; // Reset intervalId
-
-        currentIndex = 0; // Restart from the first image
-        imageDisplay.src = images[currentIndex]; // Update displayed image
-
-        // Start automatic cycling
-        startCycling();
+        intervalId = null; // Clear any active intervals
+        currentIndex = 0; // Reset to the first image
+        console.log('Reset to the first image.');
+        imageDisplay.src = images[currentIndex]; // Show the first image
+        startCycling(); // Start cycling from the beginning
     });
 });
