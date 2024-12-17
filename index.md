@@ -34,6 +34,33 @@ Typically, the graph for the actor shows that around $10^5$ actors have played i
 
 Now that we have a more clear view on our database, lets begin the analysis.
 
+## Quiz: Who's Done the Impossible?
+
+Who do you think has played in 9 different languages throughout their career?
+
+-  **a)** Tom Cruise  
+-  **b)** Jean Dujardin  
+-  **c)** Jackie Chan  
+-  **d)** No one can have done that  
+
+---
+
+#### Reveal the Answer
+Click to reveal:  
+<details>
+  <summary>Show Answer</summary>
+  
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="/assets/img/jackie_chan.jpg" alt="Jackie Chan" style="width: 400px; height: auto; margin-right: 10px;">
+    <div>
+      <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
+      Fun fact: Jackie Chan has acted in multiple languages, including Cantonese, Mandarin, English, Korean, Japanese, and more!
+    </div>
+  </div>
+  
+</details>
+
+
 ## Try to plot an interactive graph (2nd test)
 
 {% include_relative plotly_graph.html %} 
