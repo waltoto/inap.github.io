@@ -34,7 +34,7 @@ Typically, the graph for the actor shows that around $10^5$ actors have played i
 
 Now that we have a more clear view on our database, lets begin the analysis.
 
-## Quiz: Who's Done the Impossible?
+## Quizz: Who has done the Impossible?
 
 Who do you think has played in 9 different languages throughout their career?
 
