@@ -80,6 +80,19 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 <script src="script.js"></script>
 
+## Another try 
+
+<div id="image-container">
+    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
+</div>
+
+<div id="slider-container" style="margin-top: 20px;">
+    <input type="range" id="image-slider" min="0" max="2" value="0" style="width: 100%;">
+</div>
+
+<script src="test.js"></script>
+
+
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
