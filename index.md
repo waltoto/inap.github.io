@@ -75,7 +75,8 @@ Click the button below to switch images.
     <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
 </div>
 
-<button id="next-image-button"> >> </button>
+<button id="next-image-button"> start </button>
+<button id="restart-button"> restart </button>
 
 <script src="script.js"></script>
 
