@@ -75,7 +75,7 @@ Click on the `start` button to see the evolution of the newtork over time.
     <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
 </div>
 
-<button id="action-button"> || |> </button>
+<button id="action-button"> start </button>
 
 <script src="script.js"></script>
 
