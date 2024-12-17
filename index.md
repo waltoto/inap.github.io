@@ -161,21 +161,35 @@ This example lets you move a slider to select an image dynamically.
     const imageSlider = document.getElementById('image-slider');
     const sliderResult = document.getElementById('slider-result');
 
-    // Set slider range dynamically
+    // Check if sliderResult and imageSlider exist
+    if (!imageSlider || !sliderResult) {
+      console.error("Required DOM elements are missing.");
+      return;
+    }
+
+    // Dynamically set slider range
     imageSlider.max = images.length - 1;
 
-    // Function to update the image based on slider position
+    // Function to update the image display
     function updateImage() {
-      const index = parseInt(imageSlider.value, 10);
-      sliderResult.innerHTML = `
-        <img src="${images[index]}" alt="Selected Image" style="max-width: 100%; height: 100%;">
-      `;
+      const index = parseInt(imageSlider.value, 10); // Get current slider value
+      const imagePath = images[index];
+
+      // Check if the image path exists
+      if (imagePath) {
+        sliderResult.innerHTML = `
+          <img src="${imagePath}" alt="Selected Image" style="max-width: 100%; height: 100%;">
+        `;
+      } else {
+        sliderResult.innerHTML = `<p style="color: red;">Image not found!</p>`;
+        console.error(`Image not found for index: ${index}`);
+      }
     }
 
     // Initial image load
     updateImage();
 
-    // Event listener for slider input
+    // Event listener for slider changes
     imageSlider.addEventListener('input', updateImage);
   });
 </script>
