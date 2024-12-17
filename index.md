@@ -72,10 +72,10 @@ Who do you think has played in 9 different languages throughout their career?
 Click the button below to switch images.
 
 <div id="image-container">
-    <img id="image-display" src="images/image1.png" alt="Image 1" style="width:100%; max-width:600px;">
+    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
 </div>
 
-<button id="next-image-button">Next Image</button>
+<button id="next-image-button">Next period</button>
 
 <script src="script.js"></script>
 
