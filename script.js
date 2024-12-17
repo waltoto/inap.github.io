@@ -14,30 +14,30 @@ document.addEventListener('DOMContentLoaded', () => {
         // Start cycling if not already started
         if (!intervalId) {
             intervalId = setInterval(() => {
-                // Increment index
+                // Increment the index
                 currentIndex++;
-                
+
                 // Stop cycling if we've reached the last image
                 if (currentIndex >= images.length) {
                     clearInterval(intervalId);
-                    intervalId = null; // Reset intervalId to allow restarting if needed
+                    intervalId = null; // Reset intervalId to allow restarting
+                    currentIndex = images.length - 1; // Ensure index stays valid
                     return;
                 }
-                
-                // Update the image
+
+                // Update the displayed image
                 imageDisplay.src = images[currentIndex];
             }, 2000); // 2-second interval
         }
 
-        // Immediately show the next image on button click
-        currentIndex++;
-        if (currentIndex < images.length) {
+        // Immediately show the next image on button click (manual override)
+        if (currentIndex < images.length - 1) {
+            currentIndex++;
             imageDisplay.src = images[currentIndex];
         } else {
-            // If last image is reached, stop cycling
+            // Stop cycling if it's the last image
             clearInterval(intervalId);
-            intervalId = null; // Reset intervalId to allow restarting if needed
-            currentIndex = images.length - 1; // Ensure we don't go past the last image
+            intervalId = null; // Reset intervalId to allow restarting
         }
     });
 });
