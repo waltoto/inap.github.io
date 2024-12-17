@@ -1,7 +1,8 @@
 const images = [
     'assets/img/distribution-actor-director-age-1-film.png',
     'assets/img/distribution-actor-director-age-movie.png',
-    'assets/img/distribution-actor-gender.png',
+    'assets/img/distribution-actor-director-DoB.png',
+    'assets/img/distribution-nbr-film-actor-director.png'
 ];
 let currentIndex = 0;
 let intervalId = null;
