@@ -98,12 +98,12 @@ Click on the `start` button to see the evolution of the newtork over time.
     <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
 </div>
 
-<div id="list-container" style="margin-top: 20px;">
-    <ul id="image-list" style="list-style-type: none; padding: 0;">
-        <li data-index="0">Actor-Director Behaviour</li>
-        <li data-index="1">Actor-Movie Behaviour</li>
-        <li data-index="2">Actor-Gender Behaviour</li>
-    </ul>
+<div id="selector-container" style="margin-top: 20px;">
+    <select id="image-selector" style="width: 100%;">
+        <option value="0">Actor-Director Behaviour</option>
+        <option value="1">Actor-Movie Behaviour</option>
+        <option value="2">Actor-Gender Behaviour</option>
+    </select>
 </div>
 
 <script src="test.js"></script>
