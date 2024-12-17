@@ -92,17 +92,6 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 <script src="test.js"></script>
 
-## Anotherother try 
-
-<div class="slider">
-  <ul>
-    <!-- Images will be dynamically populated by JavaScript -->
-  </ul>
-</div>
-
-<script src="test2.js"></script>
-<link rel="stylesheet" href="style.css">
-
 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
