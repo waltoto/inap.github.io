@@ -2,10 +2,10 @@ const slider = document.querySelector('.slider ul');
 
 // Replace with the image names in your folder
 const images = [
-  'image1.jpg',
-  'image2.jpg',
-  'image3.jpg',
-  'image4.jpg'
+    'assets/img/distribution-actor-director-age-1-film.png',
+    'assets/img/distribution-actor-director-age-movie.png',
+    'assets/img/distribution-actor-director-DoB.png',
+    'assets/img/distribution-nbr-film-actor-director.png'
 ];
 
 // Dynamically create list items for images
