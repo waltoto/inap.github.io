@@ -3,6 +3,7 @@ layout: home
 title: Evolution of the network of actors in the film industry through time 
 subtitle: ImportNumpyAsPd
 cover-img: /assets/img/Image_chatgpt_network_time.jpg
+mathjax: true
 ---
 
 ## DATA exploration 
@@ -30,7 +31,7 @@ We then plot the ages of the director and actor at their debut :
 Both distributions have the same shape but we observe that the director distribution is less spread out. The most represented age is around 25 years old for the actors and 37 years old for the directors.  
 Then we plot the number of films directed/played by directors/actors.
 ![Distribution of number of films per actor][img9]
-Typically, the graph for the actor shows that around $10^5$ actors have played in one single film, around $2 \times 10^4$ have played in only two different films,... These two curves are as expected decreasing pretty fast : directors who have directed more than 50 movies or actors who have played in more than 100 movies are isolated cases. <br>We can notice that directors tend to participate in fewer films than actors.
+Typically, the graph for the actor shows that around $$10^5$$ actors have played in one single film, around $$2 \times 10^4$$ have played in only two different films,... These two curves are as expected decreasing pretty fast : directors who have directed more than 50 movies or actors who have played in more than 100 movies are isolated cases. <br>We can notice that directors tend to participate in fewer films than actors.
 
 Now that we have a more clear view on our database, lets begin the analysis.
 
