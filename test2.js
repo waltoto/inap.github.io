@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageDisplay = document.getElementById('image-display');
     const imageSelector = document.getElementById('image-selector');
 
-    // Update image based on the selected option
+    // Update image when dropdown value changes
     imageSelector.addEventListener('change', () => {
-        const selectedIndex = parseInt(imageSelector.value, 10); // Get the selected option value
-        imageDisplay.src = images[selectedIndex]; // Update image display
+        const selectedIndex = parseInt(imageSelector.value, 10); // Get selected value as index
+        imageDisplay.src = images[selectedIndex]; // Update the image source
         console.log(`Selected index: ${selectedIndex}, Image: ${images[selectedIndex]}`);
     });
 });
