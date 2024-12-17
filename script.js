@@ -9,12 +9,13 @@ let intervalId = null;
 document.addEventListener('DOMContentLoaded', () => {
     const imageDisplay = document.getElementById('image-display');
     const nextImageButton = document.getElementById('next-image-button');
+    const restartButton = document.getElementById('restart-button');
 
-    nextImageButton.addEventListener('click', () => {
-        // Start cycling if not already started
+    // Function to handle cycling logic
+    const startCycling = () => {
+        // Start cycling only if not already started
         if (!intervalId) {
             intervalId = setInterval(() => {
-                // Increment the index
                 currentIndex++;
 
                 // Stop cycling if we've reached the last image
@@ -29,8 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 imageDisplay.src = images[currentIndex];
             }, 2000); // 2-second interval
         }
+    };
 
-        // Immediately show the next image on button click (manual override)
+    // Event listener for "Next Image" button
+    nextImageButton.addEventListener('click', () => {
+        // Immediately show the next image on button click
         if (currentIndex < images.length - 1) {
             currentIndex++;
             imageDisplay.src = images[currentIndex];
@@ -39,5 +43,21 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(intervalId);
             intervalId = null; // Reset intervalId to allow restarting
         }
+
+        // Start automatic cycling
+        startCycling();
+    });
+
+    // Event listener for "Restart" button
+    restartButton.addEventListener('click', () => {
+        // Reset the index and clear any ongoing intervals
+        clearInterval(intervalId);
+        intervalId = null; // Reset intervalId
+
+        currentIndex = 0; // Restart from the first image
+        imageDisplay.src = images[currentIndex]; // Update displayed image
+
+        // Start automatic cycling
+        startCycling();
     });
 });
