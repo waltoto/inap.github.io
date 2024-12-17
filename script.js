@@ -8,47 +8,43 @@ let intervalId = null;
 
 document.addEventListener('DOMContentLoaded', () => {
     const imageDisplay = document.getElementById('image-display');
-    const nextImageButton = document.getElementById('next-image-button');
-    const restartButton = document.getElementById('restart-button');
+    const actionButton = document.getElementById('action-button'); // Single button
 
     const startCycling = () => {
         console.log('Starting cycling...');
-        if (!intervalId) {
-            intervalId = setInterval(() => {
-                currentIndex++;
-                if (currentIndex >= images.length) {
-                    console.log('Reached the last image. Stopping cycling.');
-                    clearInterval(intervalId);
-                    intervalId = null;
-                    currentIndex = images.length - 1;
-                    return;
-                }
-                console.log(`Switching to image ${currentIndex}`);
-                imageDisplay.src = images[currentIndex];
-            }, 2000);
-        }
+        intervalId = setInterval(() => {
+            currentIndex++;
+            if (currentIndex >= images.length) {
+                console.log('Reached the last image. Stopping cycling.');
+                clearInterval(intervalId);
+                intervalId = null; // Reset intervalId
+                currentIndex = images.length - 1; // Keep index in bounds
+                return;
+            }
+            console.log(`Switching to image ${currentIndex}`);
+            imageDisplay.src = images[currentIndex];
+        }, 2000); // 2-second interval
     };
 
-    nextImageButton.addEventListener('click', () => {
-        if (currentIndex < images.length - 1) {
-            currentIndex++;
-            console.log(`Next button clicked. Displaying image ${currentIndex}`);
+    actionButton.addEventListener('click', () => {
+        if (!intervalId) {
+            // If cycling is stopped, reset and restart
+            console.log('Restarting cycle...');
+            currentIndex = 0; // Reset to the first image
             imageDisplay.src = images[currentIndex];
+            startCycling();
         } else {
-            console.log('Reached the last image. Stopping cycling.');
-            clearInterval(intervalId);
-            intervalId = null;
+            // If cycling is running, go to the next image immediately
+            console.log('Moving to the next image...');
+            currentIndex++;
+            if (currentIndex < images.length) {
+                imageDisplay.src = images[currentIndex];
+            } else {
+                console.log('Reached the last image. Stopping cycling.');
+                clearInterval(intervalId);
+                intervalId = null; // Reset intervalId to allow restarting
+                currentIndex = images.length - 1; // Keep index in bounds
+            }
         }
-        startCycling();
-    });
-
-    restartButton.addEventListener('click', () => {
-        console.log('Restart button clicked.');
-        clearInterval(intervalId);
-        intervalId = null; // Clear any active intervals
-        currentIndex = 0; // Reset to the first image
-        console.log('Reset to the first image.');
-        imageDisplay.src = images[currentIndex]; // Show the first image
-        startCycling(); // Start cycling from the beginning
     });
 });
