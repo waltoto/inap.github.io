@@ -67,6 +67,19 @@ Who do you think has played in 9 different languages throughout their career?
 ## Try to plot interactive plot from jupyter notebook
 {% include_relative iris_plot.html %} 
 
+## Try image time scrolling
+
+Click the button below to switch images.
+
+<div id="image-container">
+    <img id="image-display" src="images/image1.png" alt="Image 1" style="width:100%; max-width:600px;">
+</div>
+
+<button id="next-image-button">Next Image</button>
+
+<script src="script.js"></script>
+
+
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
 [img1]: /assets/img/distribution-film.png
