@@ -1,0 +1,15 @@
+.slider ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider li {
+  display: none;
+}
+
+.slider li.active {
+  display: block;
+}
