@@ -118,6 +118,68 @@ This example lets you select an image from a dropdown, and it displays the image
 
 <script src="img_list.js"></script>
 
+## JavaScript - Slider Change Image Example
+
+This example lets you move a slider to select an image dynamically.
+
+---
+
+<div style="margin-top: 20px;">
+  <h4 style="color: black; text-align: center;">Move the slider to select an image</h4>
+  <hr style="border-top: 1px dotted #ccc;" />
+
+  <div style="text-align: center;">
+    <label for="image-slider">Choose a position:</label>
+    <input type="range" id="image-slider" min="0" value="0" style="width: 80%; margin: 10px auto;" />
+  </div>
+
+  <div id="slider-result" style="
+      height: 250px;
+      width: 80%;
+      margin: 20px auto;
+      border: 1px solid #000;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    ">
+    <p style="color: gray;">Image will appear here</p>
+  </div>
+</div>
+
+<script>
+  // Array of image paths
+  const images = [
+    'assets/img/distribution-actor-director-DoB.png',
+    'assets/img/distribution-actor-director-age-1-film.png',
+    'assets/img/distribution-actor-director-age-movie.png',
+    'assets/img/distribution-nbr-film-actor-director.png'
+  ];
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // DOM elements
+    const imageSlider = document.getElementById('image-slider');
+    const sliderResult = document.getElementById('slider-result');
+
+    // Set slider range dynamically
+    imageSlider.max = images.length - 1;
+
+    // Function to update the image based on slider position
+    function updateImage() {
+      const index = parseInt(imageSlider.value, 10);
+      sliderResult.innerHTML = `
+        <img src="${images[index]}" alt="Selected Image" style="max-width: 100%; height: 100%;">
+      `;
+    }
+
+    // Initial image load
+    updateImage();
+
+    // Event listener for slider input
+    imageSlider.addEventListener('input', updateImage);
+  });
+</script>
+
 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
