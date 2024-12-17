@@ -11,16 +11,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextImageButton = document.getElementById('next-image-button');
 
     nextImageButton.addEventListener('click', () => {
-        // Start automatic cycling if not already started
+        // Start cycling if not already started
         if (!intervalId) {
             intervalId = setInterval(() => {
-                currentIndex = (currentIndex + 1) % images.length;
+                // Increment index
+                currentIndex++;
+                
+                // Stop cycling if we've reached the last image
+                if (currentIndex >= images.length) {
+                    clearInterval(intervalId);
+                    intervalId = null; // Reset intervalId to allow restarting if needed
+                    return;
+                }
+                
+                // Update the image
                 imageDisplay.src = images[currentIndex];
-            }, 2000); // 2 seconds interval
+            }, 2000); // 2-second interval
         }
 
-        // Also immediately switch the image on button click
-        currentIndex = (currentIndex + 1) % images.length;
-        imageDisplay.src = images[currentIndex];
+        // Immediately show the next image on button click
+        currentIndex++;
+        if (currentIndex < images.length) {
+            imageDisplay.src = images[currentIndex];
+        } else {
+            // If last image is reached, stop cycling
+            clearInterval(intervalId);
+            intervalId = null; // Reset intervalId to allow restarting if needed
+            currentIndex = images.length - 1; // Ensure we don't go past the last image
+        }
     });
 });
