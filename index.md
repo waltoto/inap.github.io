@@ -117,7 +117,7 @@ This example lets you select an image from a dropdown, and it displays the image
 ---
 
 <div style="margin-top: 20px;">
-  <h3 class="text-primary" style="text-align: center;">Ici mettre le titre (si besoin)</h3>
+  <h3 class="text-primary" style="text-align: center;">Put a title here if needed</h3>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
@@ -145,25 +145,8 @@ This example lets you select an image from a dropdown, and it displays the image
   </div>
 </div>
 
-<script>
-  function changeImage() {
-    // Get the value of the dropdown
-    var choice = document.getElementById("choice").value;
+<script src="img_list.js"></script>
 
-    // Check if no option is selected
-    if (choice === "") {
-      alert("No Image Selected!");
-      return;
-    }
-
-    // Path to the image based on choice
-    var imagePath = "assets/img/" + choice + ".png";
-
-    // Update the result div with the selected image
-    var result = document.getElementById("result");
-    result.innerHTML = "<img src='" + imagePath + "' style='max-width: 100%; height: 100%;' alt='Selected Image'>";
-  }
-</script>
 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
