@@ -1,7 +1,7 @@
 const images = [
-    'assets/img/distribution-actor-director-age-1-film.png',
     'assets/img/distribution-actor-director-age-movie.png',
     'assets/img/distribution-actor-gender.png',
+    'assets/img/distribution-actor-director-age-1-film.png'
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
