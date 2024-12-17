@@ -106,7 +106,7 @@ Click on the `start` button to see the evolution of the newtork over time.
     </select>
 </div>
 
-<script src="test.js"></script>
+<script src="test2.js"></script>
 
 
 
