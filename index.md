@@ -117,7 +117,7 @@ This example lets you select an image from a dropdown, and it displays the image
 ---
 
 <div style="margin-top: 20px;">
-  <h4 class="text-primary" style="text-align: center;">Ici mettre le titre (si besoin)</h4>
+  <h3 class="text-primary" style="text-align: center;">Ici mettre le titre (si besoin)</h3>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
