@@ -51,7 +51,7 @@ Click to reveal:
   <summary>Show Answer</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="/assets/img/jackie_chan.jpg" alt="Jackie Chan" style="width: 400px; height: auto; margin-right: 10px;">
+    <img src="/assets/img/jackie_chan.jpg" alt="Jackie Chan" style="width: 100px; height: auto; margin-right: 10px;">
     <div>
       <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
       Fun fact: Jackie Chan has acted in multiple languages, including Cantonese, Mandarin, English, Korean, Japanese, and more!
