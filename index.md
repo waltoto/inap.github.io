@@ -110,6 +110,62 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 <script src="test2.js"></script>
 
+## Try something else 
+
+# JavaScript - Simple Dropdown Change Image
+
+This example lets you select an image from a dropdown, and it displays the image dynamically.
+
+---
+
+<div style="margin-top: 20px;">
+  <h3 class="text-primary" style="text-align: center;">Simple Dropdown Change Image</h3>
+  <hr style="border-top: 1px dotted #ccc;" />
+
+  <div style="text-align: center;">
+    <label for="choice">Select an image:</label>
+    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+      <option value="">-- Select an option --</option>
+      <option value="distribution-actor-director-DoB">Anime</option>
+      <option value="distribution-actor-director-age-1-film">People</option>
+      <option value="distribution-actor-director-age-movie">Food</option>
+      <option value="distribution-nbr-film-actor-director">Animal</option>
+    </select>
+  </div>
+
+  <div id="result" style="
+      height: 250px;
+      width: 80%;
+      margin: 20px auto;
+      border: 1px solid #000;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    ">
+    <p style="color: gray;">Image will appear here</p>
+  </div>
+</div>
+
+<script>
+  function changeImage() {
+    // Get the value of the dropdown
+    var choice = document.getElementById("choice").value;
+
+    // Check if no option is selected
+    if (choice === "") {
+      alert("No Image Selected!");
+      return;
+    }
+
+    // Path to the image based on choice
+    var imagePath = "assets/img/" + choice + ".png";
+
+    // Update the result div with the selected image
+    var result = document.getElementById("result");
+    result.innerHTML = "<img src='" + imagePath + "' style='max-width: 100%; height: 100%;' alt='Selected Image'>";
+  }
+</script>
 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
