@@ -69,12 +69,13 @@ Who do you think has played in 9 different languages throughout their career?
 
 ## Try image time scrolling
 
-Click the button below to switch images.
+Click on the `start` button to see the evolution of the newtork over time. 
+
 <div id="image-container">
     <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
 </div>
 
-<button id="action-button"> Start </button>
+<button id="action-button"> || |> </button>
 
 <script src="script.js"></script>
 
