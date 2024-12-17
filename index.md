@@ -112,14 +112,12 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 ## Try something else 
 
-# JavaScript - Simple Dropdown Change Image
-
 This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
 
 <div style="margin-top: 20px;">
-  <h3 class="text-primary" style="text-align: center;">Simple Dropdown Change Image</h3>
+  <h4 class="text-primary" style="text-align: center;">Ici mettre le titre (si besoin)</h4>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
