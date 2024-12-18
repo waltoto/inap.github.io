@@ -115,6 +115,7 @@ This example lets you select an image from a dropdown, and it displays the image
 <script src="img_list.js"></script>
 ------------------------------------------------------------------------------------------------------------------------------------
 # Plot 1 :
+## alternative 1
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
 
   <div>
@@ -141,6 +142,35 @@ This example lets you select an image from a dropdown, and it displays the image
     <iframe src="assets/img/histogram_German.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
+</div>
+## alternative 2:
+<div style="margin-top: 20px;">
+  <h4 style="color: black; text-align: center;">Do actors who have performed in a particular language also perform in other languages? </h4>
+  <hr style="border-top: 1px dotted #ccc;" />
+
+  <div style="text-align: center;">
+    <label for="choice">Select an language:</label>
+    <select id="choice" onchange="changeImageHTML()" style="padding: 5px; margin-left: 10px;">
+      <option value="histogram_English">English</option>
+      <option value="histogram_French">French</option>
+      <option value="histogram_Hindi">Hindi</option>
+      <option value="histogram_Italian">Italian</option>
+      <option value="histogram_Spanish">Spanish</option>
+    </select>
+  </div>
+
+  <div id="result" style="
+      height: 400px; /* Augmentation de la hauteur */
+      width: 80%; /* Augmentation de la largeur */
+      margin: 0px auto; /* Ajout d'espace autour */
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9; /* Fond légèrement gris */
+    ">
+    <p style="color: gray;">Image will appear here</p>
+  </div>
 </div>
 ------------------------------------------------------------------------------------------------------------------------------------
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
