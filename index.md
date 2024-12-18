@@ -143,6 +143,11 @@ This example lets you select an image from a dropdown, and it displays the image
   }
 </script>
 
+## Try html files thibault
+
+{% include_relative assets/img/histogram_Italian_Language.html %} 
+
+
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
 [img1]: /assets/img/distribution-film.png
