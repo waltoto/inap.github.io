@@ -178,7 +178,7 @@ This example lets you select an image from a dropdown, and it displays the image
 {% include_relative group_distribution_plot.html %}
 
 # Plot 3
-<div class="internet">
+<div>
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 ------------------------------------------------------------------------------------------------------------------------------------
