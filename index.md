@@ -62,7 +62,7 @@ Who do you think has played in 9 different languages throughout their career?
 Click on the `start` button to see the evolution of the newtork over time. 
 
 <div id="image-container">
-    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="width:100%; max-width:600px;">
+    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
 <button id="action-button"> start </button>
