@@ -101,23 +101,28 @@ This example lets you select an image from a dropdown, and it displays the image
         if (choice === '') {
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var htmlPath = 'assets/img/' + choice + '.html';
-          
+          var imagePath = 'assets/img/' + choice + '.html';
+          var image = new Image();
+          image.src = imagePath; // Dynamically load the selected image
+
           // Clear previous content inside the result div
           result.innerHTML = '';
 
-          // Create an object element to embed the HTML as a visualization
-          var object = document.createElement('object');
-          object.data = htmlPath; // Path to the HTML file
-          object.style.width = '100%'; // Ensure width is responsive to the container
-          object.style.height = '100%'; // Ensure height is responsive to the container
-          object.style.maxWidth = '100%'; // Prevent exceeding container width
-          object.style.maxHeight = '100%'; // Prevent exceeding container height
-          object.style.objectFit = 'contain'; // Keep the aspect ratio while resizing
-          object.style.overflow = 'hidden'; // Avoid any scrollbars
+          // Once image is loaded, append it to the result div
+          image.onload = function() {
+            result.appendChild(image); // Add the new image to the result
+            // Style the image to fit into the container without overflow
+            image.style.width = '100%';  // Ensure image fits to the width of the container
+            image.style.height = '100%'; // Ensure image fits to the height of the container
+            image.style.objectFit = 'contain';  // Maintain aspect ratio (this will prevent overflow and stretching)
+            image.style.display = 'block';      // Remove extra spacing or margins
+            image.style.margin = 'auto';        // Center the image horizontally
+          };
 
-          // Append the object to the result div
-          result.appendChild(object);
+          // Error handling if the image fails to load
+          image.onerror = function() {
+            result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
+          };
         }
       "
     >
@@ -131,8 +136,8 @@ This example lets you select an image from a dropdown, and it displays the image
   </div>
 
   <div id="result" style="
-      height: 250px;
-      width: 80%;
+      height: 250px; /* Fixed height of the container */
+      width: 80%; /* Fixed width of the container */
       margin: 20px auto;
       border: 1px solid #000;
       text-align: center;
