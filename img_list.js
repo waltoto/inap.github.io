@@ -27,10 +27,10 @@ function changeImageHTML() {
     return;
   }
 
-  // Path to the image based on choice
-  var imagePath = "assets/img/" + choice + ".html";
+  // Path to the .html file based on choice
+  var htmlPath = "assets/img/" + choice + ".html";
 
-  // Update the result div with the selected image
+  // Update the result div with the selected HTML file using an <iframe>
   var result = document.getElementById("result");
-  result.innerHTML = "<img src='" + imagePath + "' style='max-width: 100%; height: 100%;' alt='Selected Image'>";
+  result.innerHTML = "<iframe src='" + htmlPath + "' style='width: 100%; height: 100%; border: none;' title='Selected HTML'></iframe>";
 }
