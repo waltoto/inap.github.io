@@ -19,7 +19,7 @@ function changeImage() {
 
 function changeImageHTML() {
   // Récupérer la sélection de l'utilisateur
-  var choice = document.getElementById("choice").value;
+  var choice = document.getElementById("choice1").value;
 
   // Si aucun choix n'est fait
   if (!choice) {
