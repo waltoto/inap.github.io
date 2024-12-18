@@ -86,6 +86,8 @@ Click on the `start` button to see the evolution of the newtork over time.
 This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
+ <div style="margin-top: 20px;">
+  <h4 style="color: black; text-align: center;">Select an image:</h4>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
@@ -99,26 +101,20 @@ This example lets you select an image from a dropdown, and it displays the image
         if (choice === '') {
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.png';  // Assurez-vous d'utiliser les bonnes extensions d'images (.png, .jpg)
+          var imagePath = 'assets/img/' + choice + '.png'; // Adjust the image path as needed
+          
+          var image = new Image(); // Create a new image element
+          image.src = imagePath;  // Set the source of the image
 
-          var image = new Image(); // Crée une image de manière dynamique
-          image.src = imagePath;   // Définir la source de l'image
-
-          // Nettoyer les précédents contenus dans le conteneur result
+          // Clear previous content inside the result div
           result.innerHTML = '';
 
-          // Quand l'image est chargée
+          // Once image is loaded, append it to the result div
           image.onload = function() {
-            result.appendChild(image);  // Ajouter l'image au conteneur
-            // Style pour ajuster l'image à l'espace disponible
-            image.style.width = '100%';     // Remplir toute la largeur
-            image.style.height = '100%';    // Remplir toute la hauteur
-            image.style.objectFit = 'contain'; // Maintenir le ratio de l'image sans la déformer
-            image.style.display = 'block';  // Pour éviter les espaces et marges supplémentaires
-            image.style.margin = 'auto';    // Centrer horizontalement l'image
+            result.appendChild(image); // Add the new image to the result
           };
 
-          // Gestion des erreurs si l'image échoue à se charger
+          // Handle errors if the image fails to load
           image.onerror = function() {
             result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
           };
@@ -134,16 +130,13 @@ This example lets you select an image from a dropdown, and it displays the image
   </div>
 
   <div id="result" style="
-      height: 250px; /* Hauteur du conteneur */
-      width: 80%; /* Largeur du conteneur */
-      margin: 20px auto;
-      border: 1px solid #000;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden; /* Pour s'assurer que l'image s'adapte correctement */
-    ">
+    height: 300px; /* Limit the height of the image container */
+    width: 80%; /* Control the width of the container */
+    margin: 20px auto;
+    border: 1px solid #000;
+    text-align: center;
+    overflow: scroll; /* Enable scrolling if image is too big */
+  ">
     <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
