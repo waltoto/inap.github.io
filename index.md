@@ -169,7 +169,7 @@ This example lets you select an image from a dropdown, and it displays the image
       align-items: center;
       background-color: #f9f9f9; /* Fond légèrement gris */
     ">
-    <p style="color: gray;">Image will appear here</p>
+    <p style="color: gray;">Select a language !</p>
   </div>
 </div>
 <script src="img_list.js"></script>
