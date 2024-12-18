@@ -1125,14 +1125,12 @@ pre {
 }
 
 .plot-scale {
-  transform: scale(0.8); /* Scale down by 80% */
-  transform-origin: center; /* Change origin to center */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  width: 100%;
-  height: 100vh; /* Optional: Adjust height for vertical centering */
-  overflow: hidden; /* Prevent overflowing */
-  margin: auto; /* Ensure proper centering in non-flex contexts */
+  transform: scale(0.8);
+  transform-origin: center;
+  width: 100%; /* Adjust the width as needed */
+  margin: 0 auto; /* Centers horizontally */
+  overflow: hidden;
+  text-align: center; /* Optional: Ensures content aligns center */
 }
+
 
