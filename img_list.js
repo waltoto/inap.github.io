@@ -29,7 +29,7 @@ function changeImageHTML() {
 
   // Construire le chemin du fichier HTML
   var htmlPath = "assets/img/" + choice + ".html";
-
+  console.log(htmlPath);
   // Récupérer l'élément où insérer l'image
   var result = document.getElementById("result");
 
