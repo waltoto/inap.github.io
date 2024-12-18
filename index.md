@@ -55,6 +55,10 @@ Who do you think has played in 9 different languages throughout their career?
 {% include_relative plotly_graph.html %} 
 
 ## Try to plot interactive plot from jupyter notebook
+<div class="plot-scale">
+  {% include_relative iris_plot.html %} 
+</div>
+
 {% include_relative iris_plot.html %} 
 
 ## Try image time scrolling
