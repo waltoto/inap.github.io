@@ -93,7 +93,21 @@ This example lets you select an image from a dropdown, and it displays the image
 
   <div style="text-align: center;">
     <label for="choice">Select an image:</label>
-    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+    <select 
+      id="choice" 
+      style="padding: 5px; margin-left: 10px;" 
+      onchange="
+        var choice = this.value;
+        var result = document.getElementById('result');
+        if (choice === '') {
+          alert('No Image Selected!');
+          result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
+        } else {
+          var imagePath = 'assets/img/' + choice + '.html';
+          result.innerHTML = '<img src=\'' + imagePath + '\' style=\'max-width: 100%; height: 100%; object-fit: contain;\' alt=\'Selected Image\'>';
+        }
+      "
+    >
       <option value="">-- Select an option --</option>
       <option value="histogram_English_Language">English</option>
       <option value="histogram_French_Language">French</option>
@@ -116,8 +130,6 @@ This example lets you select an image from a dropdown, and it displays the image
     <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
-
-<script src="img_list.js"></script>
 
 
 
