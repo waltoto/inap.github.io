@@ -99,25 +99,30 @@ This example lets you select an image from a dropdown, and it displays the image
         var choice = this.value;
         var result = document.getElementById('result');
         if (choice === '') {
-          alert('No Image Selected!');
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.png'; 
-          result.innerHTML = '<img src=\'\' style=\'max-width: 100%; height: 100%; object-fit: contain;\' alt=\'Selected Image\'>';
+          var imagePath = 'assets/img/' + choice + '.png';
           var image = new Image(); // Create a new image element dynamically
           image.src = imagePath;  // Define the source
+
+          // Clear previous content inside the result div
+          result.innerHTML = '';
+
+          // Once image is loaded, append it to the result div
           image.onload = function() {
-            result.innerHTML = ""; // Clear any old content
-            result.appendChild(image);  // Add the new image to the result
-            image.style.objectFit = "contain";  // Adjust image size to container
-            image.style.width = "100%";  // Ensure image fills the width of the container
-            image.style.height = "100%";  // Ensure image fills the height of the container
-            image.style.display = "block";  // Prevents image from having any padding or margin
-            image.style.margin = "auto";  // Centers the image
+            result.appendChild(image); // Add the new image to the result
+            // Style the image to fit into the container
+            image.style.objectFit = 'contain';  // Maintain the aspect ratio
+            image.style.width = '100%';         // Scale to the width of the container
+            image.style.height = '100%';        // Scale to the height of the container
+            image.style.display = 'block';      // Remove any extra spacing or margins
+            image.style.margin = 'auto';        // Center the image
           };
+
+          // Error handling if the image fails to load
           image.onerror = function() {
             result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
-          }
+          };
         }
       "
     >
@@ -139,7 +144,7 @@ This example lets you select an image from a dropdown, and it displays the image
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden; /* Cache les barres de défilement */
+      overflow: hidden; /* Hide any scrollbar */
     ">
     <p style="color: gray;">Image will appear here</p>
   </div>
