@@ -8,10 +8,31 @@ function changeImage() {
     return;
   }
 
-  // Path to the HTML file based on choice
-  var htmlPath = "assets/img/" + choice + ".html"; // Fixed file extension
-
-  // Update the result div with the selected HTML content in an iframe
+  // Map the dropdown choice to the corresponding HTML file
   var result = document.getElementById("result");
-  result.innerHTML = "<iframe src='" + htmlPath + "' style='width: 100%; height: 100%; border: none;'></iframe>";
+
+  // Clear existing content
+  result.innerHTML = "";
+
+  // Dynamically load the HTML content using Jekyll's include directive
+  switch (choice) {
+    case "histogram_English_Language":
+      result.innerHTML = `{% include_relative assets/img/histogram_English_Language.html %}`;
+      break;
+    case "histogram_French_Language":
+      result.innerHTML = `{% include_relative assets/img/histogram_French_Language.html %}`;
+      break;
+    case "histogram_Hindi_Language":
+      result.innerHTML = `{% include_relative assets/img/histogram_Hindi_Language.html %}`;
+      break;
+    case "histogram_Italian_Language":
+      result.innerHTML = `{% include_relative assets/img/histogram_Italian_Language.html %}`;
+      break;
+    case "histogram_Spanish_Language":
+      result.innerHTML = `{% include_relative assets/img/histogram_Spanish_Language.html %}`;
+      break;
+    default:
+      alert("Content not available!");
+      break;
+  }
 }
