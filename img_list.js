@@ -18,19 +18,23 @@ function changeImage() {
 }
 
 function changeImageHTML() {
-  // Get the value of the dropdown
+  // Récupérer la sélection de l'utilisateur
   var choice = document.getElementById("choice").value;
 
-  // Check if no option is selected
-  if (choice === "") {
+  // Si aucun choix n'est fait
+  if (!choice) {
     alert("No Image Selected!");
     return;
   }
 
-  // Path to the .html file based on choice
+  // Construire le chemin du fichier HTML
   var htmlPath = "assets/img/" + choice + ".html";
 
-  // Update the result div with the selected HTML file using an <iframe>
+  // Récupérer l'élément où insérer l'image
   var result = document.getElementById("result");
-  result.innerHTML = "<iframe src='" + htmlPath + "' style='width: 100%; height: 100%; border: none;' title='Selected HTML'></iframe>";
+
+  // Mettre à jour le contenu de l'élément
+  result.innerHTML = `<iframe src="${htmlPath}" 
+                           style="width: 100%; height: 100%; border: none;"
+                           title="Interactive Chart"></iframe>`;
 }
