@@ -127,15 +127,15 @@ This example lets you select an image from a dropdown, and it displays the image
 
     // Assign the correct image path based on the choice
     if (choice === "English_Language") {
-      imagePath = "https://waltoto.github.io/assets/img/English_Language.png"; // Correct path
+      imagePath = "assets/img/English_Language.png"; // Correct path
     } else if (choice === "French_Language") {
-      imagePath = "https://waltoto.github.io/assets/img/French_Language.png"; // Correct path
+      imagePath = "assets/img/French_Language.png"; // Correct path
     } else if (choice === "Hindi_Language") {
-      imagePath = "https://waltoto.github.io/assets/img/Hindi_Language.png"; // Correct path
+      imagePath = "assets/img/Hindi_Language.png"; // Correct path
     } else if (choice === "Italian_Language") {
-      imagePath = "https://waltoto.github.io/assets/img/Italian_Language.png"; // Correct path
+      imagePath = "assets/img/Italian_Language.png"; // Correct path
     } else if (choice === "Spanish_Language") {
-      imagePath = "https://waltoto.github.io/assets/img/Spanish_Language.png"; // Correct path
+      imagePath = "assets/img/Spanish_Language.png"; // Correct path
     }
 
     // Debugging: Check the path in the console
