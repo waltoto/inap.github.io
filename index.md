@@ -86,60 +86,36 @@ Click on the `start` button to see the evolution of the newtork over time.
 This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
- <div style="margin-top: 20px;">
-  <h4 style="color: black; text-align: center;">Select an image:</h4>
-  <hr style="border-top: 1px dotted #ccc;" />
+<div>
+  <select id="imageSelector" onchange="changeImage()">
+    <option value="image1">Choisir une image</option>
+    <option value="image1">Image 1</option>
+    <option value="image2">Image 2</option>
+    <option value="image3">Image 3</option>
+  </select>
 
-  <div style="text-align: center;">
-    <label for="choice">Select an image:</label>
-    <select 
-      id="choice" 
-      style="padding: 5px; margin-left: 10px;" 
-      onchange="
-        var choice = this.value;
-        var result = document.getElementById('result');
-        if (choice === '') {
-          result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
-        } else {
-          var imagePath = 'assets/img/' + choice + '.png'; // Adjust the image path as needed
-          
-          var image = new Image(); // Create a new image element
-          image.src = imagePath;  // Set the source of the image
-
-          // Clear previous content inside the result div
-          result.innerHTML = '';
-
-          // Once image is loaded, append it to the result div
-          image.onload = function() {
-            result.appendChild(image); // Add the new image to the result
-          };
-
-          // Handle errors if the image fails to load
-          image.onerror = function() {
-            result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
-          };
-        }
-      "
-    >
-      <option value="English_Language">English</option>
-      <option value="French_Language">French</option>
-      <option value="Hindi_Language">Hindi</option>
-      <option value="Italian_Language">Italian</option>
-      <option value="Spanish_Language">Spanish</option>
-    </select>
-  </div>
-
-  <div id="result" style="
-    height: 300px; /* Limit the height of the image container */
-    width: 80%; /* Control the width of the container */
-    margin: 20px auto;
-    border: 1px solid #000;
-    text-align: center;
-    overflow: scroll; /* Enable scrolling if image is too big */
-  ">
-    <p style="color: gray;">Image will appear here</p>
+  <div>
+    <img id="imageDisplay" src="image1.png" alt="Image sélectionnée" style="display:block; margin-top: 10px;">
   </div>
 </div>
+
+<script>
+  function changeImage() {
+    var selector = document.getElementById("imageSelector");
+    var imageDisplay = document.getElementById("imageDisplay");
+    var value = selector.value;
+    
+    if (value === "image1") {
+      imageDisplay.src = "assets/img/English_Language.png";
+    } else if (value === "assets/img/English_Language.png") {
+      imageDisplay.src = "assets/img/English_Language.png";
+    } else if (value === "assets/img/English_Language.png") {
+      imageDisplay.src = "assets/img/English_Language.png";
+    } else {
+      imageDisplay.src = "";
+    }
+  }
+</script>
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
