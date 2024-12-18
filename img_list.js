@@ -26,7 +26,7 @@ function changeImageHTML() {
     alert("No Image Selected!");
     return;
   }
-
+  console.log(choice);
   // Construire le chemin du fichier HTML
   var htmlPath = "assets/img/" + choice + ".html";
   console.log(htmlPath);
