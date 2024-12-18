@@ -9,7 +9,7 @@ function changeImage() {
   }
 
   // Path to the HTML file based on choice
-  var htmlPath = "assets/html/" + choice + ".html"; // Fixed file extension
+  var htmlPath = "assets/img/" + choice + ".html"; // Fixed file extension
 
   // Update the result div with the selected HTML content in an iframe
   var result = document.getElementById("result");
