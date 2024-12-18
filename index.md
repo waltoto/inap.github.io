@@ -79,7 +79,7 @@ Click on the `start` button to see the evolution of the newtork over time.
 
 
 
-## Try html files thibault
+## Try HTML Files Thibault
 
 ---
 <div style="margin-top: 20px;">
@@ -88,30 +88,38 @@ Click on the `start` button to see the evolution of the newtork over time.
 
   <div style="text-align: center;">
     <label for="choice">Select a language:</label>
-    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+    <select id="choice" onchange="changeContent()" style="padding: 5px; margin-left: 10px;">
       <option value="">-- Select --</option>
-      <option value="histogram_English_Language">English</option>
-      <option value="histogram_French_Language">French</option>
-      <option value="histogram_Hindi_Language">Hindi</option>
-      <option value="histogram_Italian_Language">Italian</option>
-      <option value="histogram_Spanish_Language">Spanish</option>
+      <option value="English">English</option>
+      <option value="French">French</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Italian">Italian</option>
+      <option value="Spanish">Spanish</option>
     </select>
   </div>
 
-  <div id="result" style="
-      height: 350px;
-      width: 90%;
-      margin: 30px auto;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #f9f9f9;">
-    <p style="color: gray;">Content will appear here</p>
+  <!-- Preloaded content -->
+  <div id="content-container">
+    <div id="English" class="content" style="display: none;">
+      {% include_relative assets/img/histogram_English_Language.html %}
+    </div>
+    <div id="French" class="content" style="display: none;">
+      {% include_relative assets/img/histogram_French_Language.html %}
+    </div>
+    <div id="Hindi" class="content" style="display: none;">
+      {% include_relative assets/img/histogram_Hindi_Language.html %}
+    </div>
+    <div id="Italian" class="content" style="display: none;">
+      {% include_relative assets/img/histogram_Italian_Language.html %}
+    </div>
+    <div id="Spanish" class="content" style="display: none;">
+      {% include_relative assets/img/histogram_Spanish_Language.html %}
+    </div>
   </div>
 </div>
 
 <script src="html_list.js"></script>
+
 
 
 
