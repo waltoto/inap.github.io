@@ -180,7 +180,6 @@ This example lets you select an image from a dropdown, and it displays the image
 # Plot 3
 
 <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
-
 ------------------------------------------------------------------------------------------------------------------------------------
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
@@ -193,3 +192,4 @@ This example lets you select an image from a dropdown, and it displays the image
 [img7]: /assets/img/distribution-actor-director-age-movie.png
 [img8]: /assets/img/distribution-actor-director-age-1-film.png
 [img9]: /assets/img/distribution-nbr-film-actor-director.png
+[img10]: /assets/img/network_with_languages.png
