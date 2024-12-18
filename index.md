@@ -149,8 +149,8 @@ This example lets you select an image from a dropdown, and it displays the image
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
-    <label for="choice">Select an language:</label>
-    <select id="choice" onchange="changeImageHTML()" style="padding: 5px; margin-left: 10px;">
+    <label for="choice1">Select an language:</label>
+    <select id="choice1" onchange="changeImageHTML()" style="padding: 5px; margin-left: 10px;">
       <option value="histogramEnglish">English</option>
       <option value="histogramFrench">French</option>
       <option value="histogramHindi">Hindi</option>
