@@ -60,7 +60,6 @@ Who do you think has played in 9 different languages throughout their career?
   {% include_relative iris_plot.html %} 
 </div>
 
-{% include_relative iris_plot.html %} 
 
 ## Try image time scrolling
 
