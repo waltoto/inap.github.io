@@ -18,7 +18,7 @@ function changeImage() {
 }
 
 function changeImageHTML() {
-  // Récupérer la sélection de l'utilisateur
+  // Récupérer la sélection de l'utilisateur (dropdown 1 et dropdown 2 ont des IDs distincts)
   var choice = document.getElementById("choice1").value;
 
   // Si aucun choix n'est fait
@@ -26,14 +26,20 @@ function changeImageHTML() {
     alert("No Image Selected!");
     return;
   }
+  
+  // Afficher le choix sélectionné dans la console pour vérification
   console.log(choice);
+
   // Construire le chemin du fichier HTML
   var htmlPath = "assets/img/" + choice + ".html";
+  
+  // Afficher le chemin généré pour déboguer
   console.log(htmlPath);
-  // Récupérer l'élément où insérer l'image
+  
+  // Récupérer l'élément cible où insérer le graphique (div résultat pour le second menu déroulant)
   var result = document.getElementById("result1");
 
-  // Mettre à jour le contenu de l'élément
+  // Mettre à jour le contenu de l'élément avec un iframe
   result.innerHTML = `<iframe src="${htmlPath}" 
                            style="width: 100%; height: 100%; border: none;"
                            title="Interactive Chart"></iframe>`;
