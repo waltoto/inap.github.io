@@ -86,7 +86,6 @@ Click on the `start` button to see the evolution of the newtork over time.
 This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
-
 <div style="margin-top: 20px;">
   <h4 style="color: black; text-align: center;">Put a title here if needed</h4>
   <hr style="border-top: 1px dotted #ccc;" />
@@ -103,21 +102,11 @@ This example lets you select an image from a dropdown, and it displays the image
           alert('No Image Selected!');
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.png'; 
-          result.innerHTML = '<img src=\'\' style=\'max-width: 100%; height: 100%; object-fit: contain;\' alt=\'Selected Image\'>';
-          var image = new Image(); // Create a new image element dynamically
-          image.src = imagePath;  // Define the source
-          image.onload = function() {
-            result.innerHTML = ""; // Clear any old content
-            result.appendChild(image);  // Add the new image to the result
-          };
-          image.onerror = function() {
-            result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
-          }
+          var htmlPath = 'assets/img/' + choice + '.html';
+          result.innerHTML = '<object data=\'' + htmlPath + '\' style=\'width:100%; height:100%; object-fit: contain;\' type=\'text/html\'>Your browser does not support the object element.</object>';
         }
       "
     >
-      <option value="">-- Select an option --</option>
       <option value="histogram_English_Language">English</option>
       <option value="histogram_French_Language">French</option>
       <option value="histogram_Hindi_Language">Hindi</option>
@@ -135,12 +124,11 @@ This example lets you select an image from a dropdown, and it displays the image
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden; /* Ajouter cette ligne pour éviter le débordement */
+      overflow: hidden; /* Ajouté pour éviter tout débordement */
     ">
     <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
-
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
