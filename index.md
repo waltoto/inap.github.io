@@ -101,7 +101,7 @@ This example lets you select an image from a dropdown, and it displays the image
         if (choice === '') {
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.png';
+          var imagePath = 'assets/img/' + choice + '.html';
           var image = new Image(); // Create a new image element dynamically
           image.src = imagePath;  // Define the source
 
