@@ -87,46 +87,38 @@ This example lets you select an image from a dropdown, and it displays the image
 
 ---
 <div style="margin-top: 20px;">
-  <h4 style="color: black; text-align: center;">Put a title here if needed</h4>
+  <h4 style="color: black; text-align: center;">Choisissez une image</h4>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
-    <label for="choice">Select an image:</label>
+    <label for="choice">Sélectionner une image:</label>
     <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
-      <option value="">-- Select an option --</option>
-      <option value="English_Language">English</option>
-      <option value="French_Language">French</option>
+      <option value="">-- Choisissez une option --</option>
+      <option value="English_Language">Anglais</option>
+      <option value="French_Language">Français</option>
       <option value="Hindi_Language">Hindi</option>
-      <option value="Italian_Language">Italian</option>
-      <option value="Spanish_Language">Spanish</option>
+      <option value="Italian_Language">Italien</option>
+      <option value="Spanish_Language">Espagnol</option>
     </select>
   </div>
 
-  <div id="result" style="
-      height: 250px;
-      width: 80%;
-      margin: 20px auto;
-      border: 1px solid #000;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    ">
-    <p id="placeholderText" style="color: gray;">Image will appear here</p>
-    <img id="resultImage" src="" alt="Selected image" style="display:none; max-height: 100%; max-width: 100%;">
+  <div id="result" style="height: 250px; width: 80%; margin: 20px auto; border: 1px solid #000; text-align: center;">
+    <p id="placeholderText" style="color: gray;">L'image s'affichera ici</p>
+    <img id="resultImage" src="" alt="Image choisie" style="display:none; max-height: 100%; max-width: 100%;">
   </div>
 </div>
 
 <script>
+  // Fonction de gestion du changement d'image
   function changeImage() {
     var choice = document.getElementById("choice").value;
     var resultImage = document.getElementById("resultImage");
     var placeholderText = document.getElementById("placeholderText");
 
-    // Correct image paths for each option
+    // Chemins des images en fonction de la sélection
     var imagePath = ""; 
     if (choice === "English_Language") {
-      imagePath = "assets/img/English_Language.png"; // Correct relative path
+      imagePath = "assets/img/English_Language.png"; // Le chemin des images
     } else if (choice === "French_Language") {
       imagePath = "assets/img/French_Language.png";
     } else if (choice === "Hindi_Language") {
@@ -137,16 +129,16 @@ This example lets you select an image from a dropdown, and it displays the image
       imagePath = "assets/img/Spanish_Language.png";
     }
 
-    console.log("Selected image path: " + imagePath); // Debugging
+    console.log("Chemin de l'image sélectionnée: " + imagePath);  // À des fins de débogage
 
-    // Check if the imagePath is valid before setting
+    // Affichage de l'image et gestion de l'affichage du texte placeholder
     if (imagePath) {
-      resultImage.src = imagePath; // Set image source
-      resultImage.style.display = "block"; // Make image visible
-      placeholderText.style.display = "none"; // Hide placeholder text
+      resultImage.src = imagePath;  // Mise à jour du chemin de l'image
+      resultImage.style.display = "block";  // Affiche l'image
+      placeholderText.style.display = "none";  // Cache le texte placeholder
     } else {
-      resultImage.style.display = "none"; // Hide image if no choice is made
-      placeholderText.style.display = "block"; // Show placeholder text
+      resultImage.style.display = "none";  // Cache l'image si aucune option n'est sélectionnée
+      placeholderText.style.display = "block";  // Montre le texte placeholder
     }
   }
 </script>
