@@ -123,32 +123,30 @@ This example lets you select an image from a dropdown, and it displays the image
     var resultImage = document.getElementById("resultImage");
     var placeholderText = document.getElementById("placeholderText");
 
-    var imagePath = ""; // Path to be assigned
-
-    // Assign the correct image path based on the choice
+    // Correct image paths for each option
+    var imagePath = ""; 
     if (choice === "English_Language") {
-      imagePath = "assets/img/English_Language.png"; // Correct path
+      imagePath = "assets/img/English_Language.png"; // Correct relative path
     } else if (choice === "French_Language") {
-      imagePath = "assets/img/French_Language.png"; // Correct path
+      imagePath = "assets/img/French_Language.png";
     } else if (choice === "Hindi_Language") {
-      imagePath = "assets/img/Hindi_Language.png"; // Correct path
+      imagePath = "assets/img/Hindi_Language.png";
     } else if (choice === "Italian_Language") {
-      imagePath = "assets/img/Italian_Language.png"; // Correct path
+      imagePath = "assets/img/Italian_Language.png";
     } else if (choice === "Spanish_Language") {
-      imagePath = "assets/img/Spanish_Language.png"; // Correct path
+      imagePath = "assets/img/Spanish_Language.png";
     }
 
-    // Debugging: Check the path in the console
-    console.log("Selected image path:", imagePath);
+    console.log("Selected image path: " + imagePath); // Debugging
 
-    // If image path is not empty, show the image
+    // Check if the imagePath is valid before setting
     if (imagePath) {
-      resultImage.src = imagePath;
-      resultImage.style.display = "block";
-      placeholderText.style.display = "none";
+      resultImage.src = imagePath; // Set image source
+      resultImage.style.display = "block"; // Make image visible
+      placeholderText.style.display = "none"; // Hide placeholder text
     } else {
-      resultImage.style.display = "none";
-      placeholderText.style.display = "block";
+      resultImage.style.display = "none"; // Hide image if no choice is made
+      placeholderText.style.display = "block"; // Show placeholder text
     }
   }
 </script>
