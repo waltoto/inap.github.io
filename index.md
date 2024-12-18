@@ -179,9 +179,10 @@ This example lets you select an image from a dropdown, and it displays the image
 
 # Plot 3
 
-<div>
+<div class="network">
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
+
 ------------------------------------------------------------------------------------------------------------------------------------
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
