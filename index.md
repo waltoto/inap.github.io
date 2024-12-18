@@ -115,42 +115,30 @@ This example lets you select an image from a dropdown, and it displays the image
 <script src="img_list.js"></script>
 ------------------------------------------------------------------------------------------------------------------------------------
 # Plot 1 :
-<style>
-  iframe {
-    width: 100%;
-    height: 300px;
-    border: none;
-  }
-  div {
-    max-height: 300px;
-    overflow: hidden;
-  }
-</style>
-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
 
   <div>
-    <iframe src="assets/img/histogram_English.html"></iframe>
+    <iframe src="assets/img/histogram_English.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_Hindi.html"></iframe>
+    <iframe src="assets/img/histogram_Hindi.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_Spanish.html"></iframe>
+    <iframe src="assets/img/histogram_Spanish.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_French.html"></iframe>
+    <iframe src="assets/img/histogram_French.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_Italian.html"></iframe>
+    <iframe src="assets/img/histogram_Italian.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_German.html"></iframe>
+    <iframe src="assets/img/histogram_German.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
 </div>
