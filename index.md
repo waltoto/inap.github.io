@@ -87,8 +87,9 @@ Click on the `start` button to see the evolution of the newtork over time.
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
-    <label for="choice">Select an language:</label>
+    <label for="choice">Select a language:</label>
     <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+      <option value="">-- Select --</option>
       <option value="histogram_English_Language">English</option>
       <option value="histogram_French_Language">French</option>
       <option value="histogram_Hindi_Language">Hindi</option>
@@ -98,20 +99,20 @@ Click on the `start` button to see the evolution of the newtork over time.
   </div>
 
   <div id="result" style="
-      height: 350px; /* Augmentation de la hauteur */
-      width: 90%; /* Augmentation de la largeur */
-      margin: 30px auto; /* Ajout d'espace autour */
+      height: 350px;
+      width: 90%;
+      margin: 30px auto;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #f9f9f9; /* Fond légèrement gris */
-    ">
-    <p style="color: gray;">Image will appear here</p>
+      background-color: #f9f9f9;">
+    <p style="color: gray;">Content will appear here</p>
   </div>
 </div>
 
 <script src="html_list.js"></script>
+
 
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
