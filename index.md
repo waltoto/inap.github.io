@@ -78,8 +78,9 @@ Click on the `start` button to see the evolution of the newtork over time.
 <script src="script.js"></script>
 
 
+## Try something else 
 
-## Try HTML Files Thibault
+This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
 <div style="margin-top: 20px;">
@@ -87,39 +88,31 @@ Click on the `start` button to see the evolution of the newtork over time.
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
-    <label for="choice">Select a language:</label>
-    <select id="choice" onchange="changeContent()" style="padding: 5px; margin-left: 10px;">
-      <option value="">-- Select --</option>
-      <option value="English">English</option>
-      <option value="French">French</option>
-      <option value="Hindi">Hindi</option>
-      <option value="Italian">Italian</option>
-      <option value="Spanish">Spanish</option>
+    <label for="choice">Select an language:</label>
+    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+      <option value="English Language">English</option>
+      <option value="French Language">French</option>
+      <option value="Hindi Language">Hindi</option>
+      <option value="Italian Language">Italian</option>
+      <option value="Spanish Language">Spanish</option>
     </select>
   </div>
 
-  <!-- Preloaded content -->
-  <div id="content-container">
-    <div id="English" class="content" style="display: none;">
-      {% include_relative assets/img/histogram_English_Language.html %}
-    </div>
-    <div id="French" class="content" style="display: none;">
-      {% include_relative assets/img/histogram_French_Language.html %}
-    </div>
-    <div id="Hindi" class="content" style="display: none;">
-      {% include_relative assets/img/histogram_Hindi_Language.html %}
-    </div>
-    <div id="Italian" class="content" style="display: none;">
-      {% include_relative assets/img/histogram_Italian_Language.html %}
-    </div>
-    <div id="Spanish" class="content" style="display: none;">
-      {% include_relative assets/img/histogram_Spanish_Language.html %}
-    </div>
+  <div id="result" style="
+      height: 350px; /* Augmentation de la hauteur */
+      width: 90%; /* Augmentation de la largeur */
+      margin: 30px auto; /* Ajout d'espace autour */
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9; /* Fond légèrement gris */
+    ">
+    <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
 
-<script src="html_list.js"></script>
-
+<script src="img_list.js"></script>
 
 
 
