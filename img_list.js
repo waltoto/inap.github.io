@@ -31,7 +31,7 @@ function changeImageHTML() {
   var htmlPath = "assets/img/" + choice + ".html";
   console.log(htmlPath);
   // Récupérer l'élément où insérer l'image
-  var result = document.getElementById("result");
+  var result = document.getElementById("result1");
 
   // Mettre à jour le contenu de l'élément
   result.innerHTML = `<iframe src="${htmlPath}" 
