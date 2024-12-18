@@ -176,13 +176,14 @@ This example lets you select an image from a dropdown, and it displays the image
 
 ## Plot 2
 
-{% include_relative assets/img/group_distribution_plot.html %}
+<div style="width: 70%; height: 500px; margin: 0 auto;">
+  {% include_relative assets/img/group_distribution_plot.html %}
+</div>
 
 ## Plot 3
 
 <div class="network">
-    <img src="assets/img/network_with_languages.png" 
-         style="display: block; margin: 0 auto; width: 400px; height: 500px;"/>
+    <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
 ------------------------------------------------------------------------------------------------------------------------------------
