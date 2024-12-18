@@ -1,38 +1,20 @@
-function changeImage() {
+function changeContent() {
   // Get the value of the dropdown
   var choice = document.getElementById("choice").value;
 
-  // Check if no option is selected
-  if (choice === "") {
-    alert("No Content Selected!");
-    return;
-  }
+  // Hide all content divs
+  var contentDivs = document.querySelectorAll(".content");
+  contentDivs.forEach(function (div) {
+    div.style.display = "none";
+  });
 
-  // Map the dropdown choice to the corresponding HTML file
-  var result = document.getElementById("result");
-
-  // Clear existing content
-  result.innerHTML = "";
-
-  // Dynamically load the HTML content using Jekyll's include directive
-  switch (choice) {
-    case "histogram_English_Language":
-      result.innerHTML = `{% include_relative assets/img/histogram_English_Language.html %}`;
-      break;
-    case "histogram_French_Language":
-      result.innerHTML = `{% include_relative assets/img/histogram_French_Language.html %}`;
-      break;
-    case "histogram_Hindi_Language":
-      result.innerHTML = `{% include_relative assets/img/histogram_Hindi_Language.html %}`;
-      break;
-    case "histogram_Italian_Language":
-      result.innerHTML = `{% include_relative assets/img/histogram_Italian_Language.html %}`;
-      break;
-    case "histogram_Spanish_Language":
-      result.innerHTML = `{% include_relative assets/img/histogram_Spanish_Language.html %}`;
-      break;
-    default:
-      alert("Content not available!");
-      break;
+  // Show the selected content
+  if (choice) {
+    var selectedDiv = document.getElementById(choice);
+    if (selectedDiv) {
+      selectedDiv.style.display = "block";
+    } else {
+      alert("Content not found!");
+    }
   }
 }
