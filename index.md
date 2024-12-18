@@ -14,7 +14,13 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
 The dataset contains films between 1910 and 2020. We observe almost twice as many films as usual in the 2000-2015 period.
 ![Distribution of Film Release Dates][img1]  
 634 different genres are present. We would typically consider only the 10 most popular genres in our analysis.
+
 ![Number of Films in Each Genre][img2]
+
+<div class="internet">
+    <img src="assets/img/nbr-film-genre.png" style="display: block; margin: 0 auto; width: 80%;"/>
+</div>
+
 145 different countries of origin are present in the dataset. We could group certain countries together (such as European or African countries, for example) to consider only the ~10 most prolific countries. Another possibility is to group the countries by their continent for the analysis.
 ![Number of Movies by Country of Origin][img3]
 ### Distribution of data about actors and directors
