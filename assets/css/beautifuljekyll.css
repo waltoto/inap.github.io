@@ -1123,3 +1123,10 @@ pre {
     display: inline-block;
   }
 }
+
+.plot-scale {
+  transform: scale(0.8); /* Scale down by 80% */
+  transform-origin: top left; /* Ensure proper scaling alignment */
+  width: 100%;
+  overflow: hidden; /* Prevent overflowing */
+}
