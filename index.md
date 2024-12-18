@@ -109,16 +109,12 @@ This example lets you select an image from a dropdown, and it displays the image
           // Create an object element to embed the HTML as a visualization
           var object = document.createElement('object');
           object.data = htmlPath; // Path to the HTML file
-          object.style.width = '100%'; // Make it fit the container width
-          object.style.height = '100%'; // Make it fit the container height
-          object.style.objectFit = 'contain'; // Ensure it maintains aspect ratio and fits inside the container
-
-          // Set max-width and max-height if needed to ensure it doesn't stretch beyond the container
-          object.style.maxWidth = '100%';
-          object.style.maxHeight = '100%';
-
-          // Prevent any scroll bars inside the object element
-          object.style.overflow = 'hidden'; 
+          object.style.width = '100%'; // Ensure width is responsive to the container
+          object.style.height = '100%'; // Ensure height is responsive to the container
+          object.style.maxWidth = '100%'; // Prevent exceeding container width
+          object.style.maxHeight = '100%'; // Prevent exceeding container height
+          object.style.objectFit = 'contain'; // Keep the aspect ratio while resizing
+          object.style.overflow = 'hidden'; // Avoid any scrollbars
 
           // Append the object to the result div
           result.appendChild(object);
