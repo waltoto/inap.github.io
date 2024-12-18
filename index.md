@@ -119,27 +119,27 @@ This example lets you select an image from a dropdown, and it displays the image
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
 
   <div>
-    <iframe src="assets/img/histogram_English.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/histogramEnglish.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_Hindi.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/histogramHindi.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_Spanish.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/histogramSpanish.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_French.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/histogramFrench.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_Italian.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/histogramItalian.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
-    <iframe src="assets/img/histogram_German.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/histogramGerman.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
 </div>
@@ -151,11 +151,11 @@ This example lets you select an image from a dropdown, and it displays the image
   <div style="text-align: center;">
     <label for="choice">Select an language:</label>
     <select id="choice" onchange="changeImageHTML()" style="padding: 5px; margin-left: 10px;">
-      <option value="histogram_English">English</option>
-      <option value="histogram_French">French</option>
-      <option value="histogram_Hindi">Hindi</option>
-      <option value="histogram_Italian">Italian</option>
-      <option value="histogram_Spanish">Spanish</option>
+      <option value="histogramEnglish">English</option>
+      <option value="histogramFrench">French</option>
+      <option value="histogramHindi">Hindi</option>
+      <option value="histogramItalian">Italian</option>
+      <option value="histogramSpanish">Spanish</option>
     </select>
   </div>
 
