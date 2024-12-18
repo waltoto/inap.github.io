@@ -172,6 +172,7 @@ This example lets you select an image from a dropdown, and it displays the image
     <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
+<script src="img_list.js"></script>
 ------------------------------------------------------------------------------------------------------------------------------------
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
