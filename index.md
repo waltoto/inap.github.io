@@ -101,50 +101,51 @@ This example lets you select an image from a dropdown, and it displays the image
         if (choice === '') {
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.html';
-          var image = new Image();
-          image.src = imagePath; // Dynamically load the selected image
+          // Correction: Utiliser le bon type d'image selon son extension
+          var imagePath = 'assets/img/' + choice + '.png'; // Mettez ici l'extension correcte (.jpg, .png)
+          
+          var image = new Image();  // Création dynamique de l'élément Image
+          image.src = imagePath; // Définir la source de l'image
 
           // Clear previous content inside the result div
           result.innerHTML = '';
 
-          // Once image is loaded, append it to the result div
+          // Une fois l'image chargée, ajouter au div result
           image.onload = function() {
-            result.appendChild(image); // Add the new image to the result
-            // Style the image to fit into the container without overflow
-            image.style.width = '100%';  // Ensure image fits to the width of the container
-            image.style.height = '100%'; // Ensure image fits to the height of the container
-            image.style.objectFit = 'contain';  // Maintain aspect ratio (this will prevent overflow and stretching)
-            image.style.display = 'block';      // Remove extra spacing or margins
-            image.style.margin = 'auto';        // Center the image horizontally
+            result.appendChild(image); // Ajouter l'image au div result
+            // Style l'image pour ajuster parfaitement à l'espace du conteneur
+            image.style.width = '100%';  // Redimensionner en largeur
+            image.style.height = '100%'; // Redimensionner en hauteur
+            image.style.objectFit = 'contain'; // Préserver les proportions de l'image
+            image.style.display = 'block';  // Supprimer les espaces ou marges supplémentaires
+            image.style.margin = 'auto';  // Centrer l'image horizontalement
           };
 
-          // Error handling if the image fails to load
+          // Gestion des erreurs si l'image échoue à se charger
           image.onerror = function() {
             result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
           };
         }
       "
     >
-      <option value="">-- Select an option --</option>
-      <option value="histogram_English_Language">English</option>
-      <option value="histogram_French_Language">French</option>
-      <option value="histogram_Hindi_Language">Hindi</option>
-      <option value="histogram_Italian_Language">Italian</option>
-      <option value="histogram_Spanish_Language">Spanish</option>
+      <option value="English_Language">English</option>
+      <option value="French_Language">French</option>
+      <option value="Hindi_Language">Hindi</option>
+      <option value="Italian_Language">Italian</option>
+      <option value="Spanish_Language">Spanish</option>
     </select>
   </div>
 
   <div id="result" style="
-      height: 250px; /* Fixed height of the container */
-      width: 80%; /* Fixed width of the container */
+      height: 250px; /* Hauteur du conteneur */
+      width: 80%; /* Largeur du conteneur */
       margin: 20px auto;
       border: 1px solid #000;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden; /* Hide any scrollbar */
+      overflow: hidden; /* Empêche l'apparition de la barre de défilement */
     ">
     <p style="color: gray;">Image will appear here</p>
   </div>
