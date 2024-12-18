@@ -95,10 +95,11 @@ This example lets you select an image from a dropdown, and it displays the image
     <label for="choice">Select an image:</label>
     <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
       <option value="">-- Select an option --</option>
-      <option value="distribution-actor-director-DoB">Anime</option>
-      <option value="distribution-actor-director-age-1-film">People</option>
-      <option value="distribution-actor-director-age-movie">Food</option>
-      <option value="distribution-nbr-film-actor-director">Animal</option>
+      <option value="histogram_English_Language">English</option>
+      <option value="histogram_French_Language">French</option>
+      <option value="histogram_Hindi_Language">Hindi</option>
+      <option value="histogram_Italian_Language">Italian</option>
+      <option value="histogram_Spanish_Language">Spanish</option>
     </select>
   </div>
 
