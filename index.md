@@ -172,21 +172,6 @@ This example lets you select an image from a dropdown, and it displays the image
     <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
-<script>
-  function changeImageHTML() {
-    // Récupère l'élément sélectionné dans le menu déroulant
-    const selectedValue = document.getElementById("choice").value;
-
-    // Récupère la div où afficher le résultat
-    const resultDiv = document.getElementById("result");
-
-    // Met à jour le contenu de la div
-    resultDiv.innerHTML = `<iframe 
-      src="assets/img/${selectedValue}.html" 
-      style="width:100%; height:100%; border:none;">
-    </iframe>`;
-  }
-</script>
 ------------------------------------------------------------------------------------------------------------------------------------
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
