@@ -86,36 +86,37 @@ Click on the `start` button to see the evolution of the newtork over time.
 This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
-<div>
-  <select id="imageSelector" onchange="changeImage()">
-    <option value="none">Choisir une image</option>
-    <option value="image1">Image 1</option>
-    <option value="image2">Image 2</option>
-    <option value="image3">Image 3</option>
-  </select>
+<div style="margin-top: 20px;">
+  <h4 style="color: black; text-align: center;">Put a title here if needed</h4>
+  <hr style="border-top: 1px dotted #ccc;" />
 
-  <div>
-    <img id="imageDisplay" src="assets/img/English_Language.png" alt="Image sélectionnée" style="display:block; margin-top: 10px;">
+  <div style="text-align: center;">
+    <label for="choice">Select an image:</label>
+    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+      <option value="">-- Select an option --</option>
+      <option value="English_Language">English</option>
+      <option value="French_Language">French</option>
+      <option value="Hindi_Language">Hindi</option>
+      <option value="Italian_Language">Italian</option>
+      <option value="Spanish_Language">Spanish</option>
+    </select>
+  </div>
+
+  <div id="result" style="
+      height: 250px;
+      width: 80%;
+      margin: 20px auto;
+      border: 1px solid #000;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    ">
+    <p style="color: gray;">Image will appear here</p>
   </div>
 </div>
 
-<script>
-  function changeImage() {
-    var selector = document.getElementById("imageSelector");
-    var imageDisplay = document.getElementById("imageDisplay");
-    var value = selector.value;
-    
-    if (value === "image1") {
-      imageDisplay.src = "assets/img/English_Language.png";
-    } else if (value === "image2") {
-      imageDisplay.src = "assets/img/Image2.png";  // Remplacez par le bon chemin pour Image2
-    } else if (value === "image3") {
-      imageDisplay.src = "assets/img/Image3.png";  // Remplacez par le bon chemin pour Image3
-    } else {
-      imageDisplay.src = ""; // Pas d'image sélectionnée
-    }
-  }
-</script>
+<script src="img_list.js"></script>
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
