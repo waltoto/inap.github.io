@@ -103,8 +103,8 @@ This example lets you select an image from a dropdown, and it displays the image
           alert('No Image Selected!');
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.html';
-          result.innerHTML = '<img src=\'' + imagePath + '\' style=\'max-width: 100%; height: 100%; object-fit: contain;\' alt=\'Selected Image\'>';
+          var htmlPath = 'assets/img/' + choice + '.html';
+          result.innerHTML = '<object data=\'' + htmlPath + '\' style=\'width:100%; height:100%;\' type=\'text/html\'>Your browser does not support the object element.</object>';
         }
       "
     >
