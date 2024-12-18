@@ -176,7 +176,7 @@ This example lets you select an image from a dropdown, and it displays the image
 
 ## Plot 2
 
-{% include_relative group_distribution_plot.html %}
+{% include_relative assets/img/group_distribution_plot.html %}
 
 ## Plot 3
 
