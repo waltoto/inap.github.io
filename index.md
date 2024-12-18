@@ -86,8 +86,6 @@ Click on the `start` button to see the evolution of the newtork over time.
 This example lets you select an image from a dropdown, and it displays the image dynamically.
 
 ---
-<div style="margin-top: 20px;">
-  <h4 style="color: black; text-align: center;">Put a title here if needed</h4>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
@@ -101,24 +99,23 @@ This example lets you select an image from a dropdown, and it displays the image
         if (choice === '') {
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          // Correction: Utiliser le bon type d'image selon son extension
-          var imagePath = 'assets/img/' + choice + '.png'; // Mettez ici l'extension correcte (.jpg, .png)
-          
-          var image = new Image();  // Création dynamique de l'élément Image
-          image.src = imagePath; // Définir la source de l'image
+          var imagePath = 'assets/img/' + choice + '.png';  // Assurez-vous d'utiliser les bonnes extensions d'images (.png, .jpg)
 
-          // Clear previous content inside the result div
+          var image = new Image(); // Crée une image de manière dynamique
+          image.src = imagePath;   // Définir la source de l'image
+
+          // Nettoyer les précédents contenus dans le conteneur result
           result.innerHTML = '';
 
-          // Une fois l'image chargée, ajouter au div result
+          // Quand l'image est chargée
           image.onload = function() {
-            result.appendChild(image); // Ajouter l'image au div result
-            // Style l'image pour ajuster parfaitement à l'espace du conteneur
-            image.style.width = '100%';  // Redimensionner en largeur
-            image.style.height = '100%'; // Redimensionner en hauteur
-            image.style.objectFit = 'contain'; // Préserver les proportions de l'image
-            image.style.display = 'block';  // Supprimer les espaces ou marges supplémentaires
-            image.style.margin = 'auto';  // Centrer l'image horizontalement
+            result.appendChild(image);  // Ajouter l'image au conteneur
+            // Style pour ajuster l'image à l'espace disponible
+            image.style.width = '100%';     // Remplir toute la largeur
+            image.style.height = '100%';    // Remplir toute la hauteur
+            image.style.objectFit = 'contain'; // Maintenir le ratio de l'image sans la déformer
+            image.style.display = 'block';  // Pour éviter les espaces et marges supplémentaires
+            image.style.margin = 'auto';    // Centrer horizontalement l'image
           };
 
           // Gestion des erreurs si l'image échoue à se charger
@@ -145,7 +142,7 @@ This example lets you select an image from a dropdown, and it displays the image
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden; /* Empêche l'apparition de la barre de défilement */
+      overflow: hidden; /* Pour s'assurer que l'image s'adapte correctement */
     ">
     <p style="color: gray;">Image will appear here</p>
   </div>
