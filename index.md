@@ -12,7 +12,7 @@ We have created a dataset called `Movie`. The `Movie` contains Metadata informat
 In parallel, we have created another dataset called `Actor` from the *CMU Movie Summary Corpus*. This dataset has for index one actor and has for features every films that he plaid in, at which age, and there is also other features. 
 ### Distribution of data in the Movie dataset
 The dataset contains films between 1910 and 2020. We observe almost twice as many films as usual in the 2000-2015 period.
-![Distribution of Film Release Dates][img1]
+![Distribution of Film Release Dates][img1]  
 634 different genres are present. We would typically consider only the 10 most popular genres in our analysis.
 ![Number of Films in Each Genre][img2]
 145 different countries of origin are present in the dataset. We could group certain countries together (such as European or African countries, for example) to consider only the ~10 most prolific countries. Another possibility is to group the countries by their continent for the analysis.
