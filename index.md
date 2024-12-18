@@ -102,11 +102,26 @@ This example lets you select an image from a dropdown, and it displays the image
           alert('No Image Selected!');
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var htmlPath = 'assets/img/' + choice + '.html';
-          result.innerHTML = '<object data=\'' + htmlPath + '\' style=\'width:100%; height:100%; object-fit: contain;\' type=\'text/html\'>Your browser does not support the object element.</object>';
+          var imagePath = 'assets/img/' + choice + '.png'; 
+          result.innerHTML = '<img src=\'\' style=\'max-width: 100%; height: 100%; object-fit: contain;\' alt=\'Selected Image\'>';
+          var image = new Image(); // Create a new image element dynamically
+          image.src = imagePath;  // Define the source
+          image.onload = function() {
+            result.innerHTML = ""; // Clear any old content
+            result.appendChild(image);  // Add the new image to the result
+            image.style.objectFit = "contain";  // Adjust image size to container
+            image.style.width = "100%";  // Ensure image fills the width of the container
+            image.style.height = "100%";  // Ensure image fills the height of the container
+            image.style.display = "block";  // Prevents image from having any padding or margin
+            image.style.margin = "auto";  // Centers the image
+          };
+          image.onerror = function() {
+            result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
+          }
         }
       "
     >
+      <option value="">-- Select an option --</option>
       <option value="histogram_English_Language">English</option>
       <option value="histogram_French_Language">French</option>
       <option value="histogram_Hindi_Language">Hindi</option>
@@ -124,7 +139,7 @@ This example lets you select an image from a dropdown, and it displays the image
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden; /* Ajouté pour éviter tout débordement */
+      overflow: hidden; /* Cache les barres de défilement */
     ">
     <p style="color: gray;">Image will appear here</p>
   </div>
