@@ -174,10 +174,11 @@ This example lets you select an image from a dropdown, and it displays the image
 </div>
 <script src="img_list.js"></script>
 
-# Plot 2
+## Plot 2
+
 {% include_relative group_distribution_plot.html %}
 
-# Plot 3
+## Plot 3
 
 <div class="network">
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
