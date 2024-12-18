@@ -87,13 +87,12 @@ This example lets you select an image from a dropdown, and it displays the image
 
 ---
 <div style="margin-top: 20px;">
-  <h4 style="color: black; text-align: center;">Put a title here if needed</h4>
+  <h4 style="color: black; text-align: center;">Do actors who have performed in a particular language also perform in other languages? </h4>
   <hr style="border-top: 1px dotted #ccc;" />
 
   <div style="text-align: center;">
-    <label for="choice">Select an image:</label>
+    <label for="choice">Select an language:</label>
     <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
-      <option value="">-- Select an option --</option>
       <option value="English Language">English</option>
       <option value="French Language">French</option>
       <option value="Hindi Language">Hindi</option>
@@ -110,9 +109,6 @@ This example lets you select an image from a dropdown, and it displays the image
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 2px solid #ccc; /* Bordure plus visible */
-      border-radius: 10px; /* Coins arrondis */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
       background-color: #f9f9f9; /* Fond légèrement gris */
     ">
     <p style="color: gray;">Image will appear here</p>
