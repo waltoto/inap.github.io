@@ -10,7 +10,7 @@ function changeImage() {
   }
 
   // Path to the image based on choice
-  var imagePath = "assets/img/" + choice + ".html";
+  var imagePath = "assets/img/" + choice + ".png";
 
   // Update the result div with the selected image
   var result = document.getElementById("result");
