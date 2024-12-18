@@ -159,7 +159,7 @@ This example lets you select an image from a dropdown, and it displays the image
     </select>
   </div>
 
-  <div id="result" style="
+  <div id="result1" style="
       height: 400px; /* Augmentation de la hauteur */
       width: 80%; /* Augmentation de la largeur */
       margin: 0px auto; /* Ajout d'espace autour */
