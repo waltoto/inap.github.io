@@ -148,8 +148,6 @@ This example lets you select an image from a dropdown, and it displays the image
   }
 </script>
 
-<script src="img_list.js"></script>
-
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
 [img1]: /assets/img/distribution-film.png
