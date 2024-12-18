@@ -78,41 +78,6 @@ Click on the `start` button to see the evolution of the newtork over time.
 <script src="script.js"></script>
 
 
-## Try something else 
-
-This example lets you select an image from a dropdown, and it displays the image dynamically.
-
----
-<div style="margin-top: 20px;">
-  <h4 style="color: black; text-align: center;">Do actors who have performed in a particular language also perform in other languages? </h4>
-  <hr style="border-top: 1px dotted #ccc;" />
-
-  <div style="text-align: center;">
-    <label for="choice">Select an language:</label>
-    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
-      <option value="English Language">English</option>
-      <option value="French Language">French</option>
-      <option value="Hindi Language">Hindi</option>
-      <option value="Italian Language">Italian</option>
-      <option value="Spanish Language">Spanish</option>
-    </select>
-  </div>
-
-  <div id="result" style="
-      height: 350px; /* Augmentation de la hauteur */
-      width: 90%; /* Augmentation de la largeur */
-      margin: 30px auto; /* Ajout d'espace autour */
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #f9f9f9; /* Fond légèrement gris */
-    ">
-    <p style="color: gray;">Image will appear here</p>
-  </div>
-</div>
-
-<script src="img_list.js"></script>
 
 ## Try html files thibault
 
