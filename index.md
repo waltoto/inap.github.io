@@ -106,7 +106,6 @@ This example lets you select an image from a dropdown, and it displays the image
       height: 250px;
       width: 80%;
       margin: 20px auto;
-      border: 1px solid #000;
       text-align: center;
       display: flex;
       justify-content: center;
