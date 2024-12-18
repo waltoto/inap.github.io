@@ -52,9 +52,13 @@ Who do you think has played in 9 different languages throughout their career?
 
 ## Try to plot an interactive graph (2nd test)
 
+Here below how to plot easely an interactive plot, 100% size 
+
 {% include_relative plotly_graph.html %} 
 
-## Try to plot interactive plot from jupyter notebook
+## Plot interactive plot but not 100% size 
+
+If you want to reduce the size, copy paste the code below, here the scaling factor is 0.8, but in can be adjustable in the following path: assets/css/beautifuljekyll.css and on this file, go at the end (line 1200 smth) and on .plot-scale, change transform: scale(0.8) with the size you want. 
 
 <div class="plot-scale">
   {% include_relative iris_plot.html %} 
