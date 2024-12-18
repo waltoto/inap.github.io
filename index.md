@@ -104,11 +104,10 @@ This example lets you select an image from a dropdown, and it displays the image
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
           var htmlPath = 'assets/img/' + choice + '.html';
-          result.innerHTML = '<object data=\'' + htmlPath + '\' style=\'width:100%; height:100%;\' type=\'text/html\'>Your browser does not support the object element.</object>';
+          result.innerHTML = '<object data=\'' + htmlPath + '\' style=\'width:100%; height:100%; object-fit: contain;\' type=\'text/html\'>Your browser does not support the object element.</object>';
         }
       "
     >
-      <option value="">-- Select an option --</option>
       <option value="histogram_English_Language">English</option>
       <option value="histogram_French_Language">French</option>
       <option value="histogram_Hindi_Language">Hindi</option>
@@ -126,6 +125,7 @@ This example lets you select an image from a dropdown, and it displays the image
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden; /* Ajouté pour éviter tout débordement */
     ">
     <p style="color: gray;">Image will appear here</p>
   </div>
