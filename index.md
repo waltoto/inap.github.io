@@ -176,7 +176,7 @@ This example lets you select an image from a dropdown, and it displays the image
 
 ## Plot 2
 
-<div style="width: 70%; height: 500px; margin: 0 auto;">
+<div style="width: 70%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/group_distribution_plot.html %}
 </div>
 
