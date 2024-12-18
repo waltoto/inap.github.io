@@ -88,14 +88,14 @@ This example lets you select an image from a dropdown, and it displays the image
 ---
 <div>
   <select id="imageSelector" onchange="changeImage()">
-    <option value="image1">Choisir une image</option>
+    <option value="none">Choisir une image</option>
     <option value="image1">Image 1</option>
     <option value="image2">Image 2</option>
     <option value="image3">Image 3</option>
   </select>
 
   <div>
-    <img id="imageDisplay" src="image1.png" alt="Image sélectionnée" style="display:block; margin-top: 10px;">
+    <img id="imageDisplay" src="assets/img/English_Language.png" alt="Image sélectionnée" style="display:block; margin-top: 10px;">
   </div>
 </div>
 
@@ -107,12 +107,12 @@ This example lets you select an image from a dropdown, and it displays the image
     
     if (value === "image1") {
       imageDisplay.src = "assets/img/English_Language.png";
-    } else if (value === "assets/img/English_Language.png") {
-      imageDisplay.src = "assets/img/English_Language.png";
-    } else if (value === "assets/img/English_Language.png") {
-      imageDisplay.src = "assets/img/English_Language.png";
+    } else if (value === "image2") {
+      imageDisplay.src = "assets/img/Image2.png";  // Remplacez par le bon chemin pour Image2
+    } else if (value === "image3") {
+      imageDisplay.src = "assets/img/Image3.png";  // Remplacez par le bon chemin pour Image3
     } else {
-      imageDisplay.src = "";
+      imageDisplay.src = ""; // Pas d'image sélectionnée
     }
   }
 </script>
