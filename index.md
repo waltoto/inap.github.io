@@ -123,22 +123,27 @@ This example lets you select an image from a dropdown, and it displays the image
     var resultImage = document.getElementById("resultImage");
     var placeholderText = document.getElementById("placeholderText");
 
+    var imagePath = ""; // Path to be assigned
+
+    // Assign the correct image path based on the choice
     if (choice === "English_Language") {
-      resultImage.src = "/assets/img/English_Language.png"; // Mettez ici le chemin correct
+      imagePath = "https://waltoto.github.io/assets/img/English_Language.png"; // Correct path
     } else if (choice === "French_Language") {
-      resultImage.src = "/assets/img/French_Language.png"; // Mettez ici le chemin correct
+      imagePath = "https://waltoto.github.io/assets/img/French_Language.png"; // Correct path
     } else if (choice === "Hindi_Language") {
-      resultImage.src = "/assets/img/Hindi_Language.png"; // Mettez ici le chemin correct
+      imagePath = "https://waltoto.github.io/assets/img/Hindi_Language.png"; // Correct path
     } else if (choice === "Italian_Language") {
-      resultImage.src = "/assets/img/Italian_Language.png"; // Mettez ici le chemin correct
+      imagePath = "https://waltoto.github.io/assets/img/Italian_Language.png"; // Correct path
     } else if (choice === "Spanish_Language") {
-      resultImage.src = "/assets/img/Spanish_Language.png"; // Mettez ici le chemin correct
-    } else {
-      resultImage.src = ""; // Si aucune option n'est choisie, on cache l'image
+      imagePath = "https://waltoto.github.io/assets/img/Spanish_Language.png"; // Correct path
     }
 
-    // Gestion de la visibilité du texte et de l'image
-    if (resultImage.src) {
+    // Debugging: Check the path in the console
+    console.log("Selected image path:", imagePath);
+
+    // If image path is not empty, show the image
+    if (imagePath) {
+      resultImage.src = imagePath;
       resultImage.style.display = "block";
       placeholderText.style.display = "none";
     } else {
