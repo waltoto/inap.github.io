@@ -101,28 +101,19 @@ This example lets you select an image from a dropdown, and it displays the image
         if (choice === '') {
           result.innerHTML = '<p style=\'color: gray;\'>Image will appear here</p>';
         } else {
-          var imagePath = 'assets/img/' + choice + '.html';
-          var image = new Image(); // Create a new image element dynamically
-          image.src = imagePath;  // Define the source
-
+          var htmlPath = 'assets/img/' + choice + '.html';
+          
           // Clear previous content inside the result div
           result.innerHTML = '';
 
-          // Once image is loaded, append it to the result div
-          image.onload = function() {
-            result.appendChild(image); // Add the new image to the result
-            // Style the image to fit into the container
-            image.style.objectFit = 'contain';  // Maintain the aspect ratio
-            image.style.width = '100%';         // Scale to the width of the container
-            image.style.height = '100%';        // Scale to the height of the container
-            image.style.display = 'block';      // Remove any extra spacing or margins
-            image.style.margin = 'auto';        // Center the image
-          };
+          // Create an object element to embed the HTML as a visualization
+          var object = document.createElement('object');
+          object.data = htmlPath; // Path to the HTML file
+          object.style.width = '100%'; // Make it fit the container
+          object.style.height = '100%'; // Make it fit the container
 
-          // Error handling if the image fails to load
-          image.onerror = function() {
-            result.innerHTML = '<p style=\'color: gray;\'>Failed to load image</p>';
-          };
+          // Append the object to the result div
+          result.appendChild(object);
         }
       "
     >
