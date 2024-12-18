@@ -124,15 +124,15 @@ This example lets you select an image from a dropdown, and it displays the image
     var placeholderText = document.getElementById("placeholderText");
 
     if (choice === "English_Language") {
-      resultImage.src = "assets/img/English_Language.png"; // Mettez ici le chemin correct
+      resultImage.src = "/assets/img/English_Language.png"; // Mettez ici le chemin correct
     } else if (choice === "French_Language") {
-      resultImage.src = "assets/img/French_Language.png"; // Mettez ici le chemin correct
+      resultImage.src = "/assets/img/French_Language.png"; // Mettez ici le chemin correct
     } else if (choice === "Hindi_Language") {
-      resultImage.src = "assets/img/Hindi_Language.png"; // Mettez ici le chemin correct
+      resultImage.src = "/assets/img/Hindi_Language.png"; // Mettez ici le chemin correct
     } else if (choice === "Italian_Language") {
-      resultImage.src = "assets/img/Italian_Language.png"; // Mettez ici le chemin correct
+      resultImage.src = "/assets/img/Italian_Language.png"; // Mettez ici le chemin correct
     } else if (choice === "Spanish_Language") {
-      resultImage.src = "assets/img/Spanish_Language.png"; // Mettez ici le chemin correct
+      resultImage.src = "/assets/img/Spanish_Language.png"; // Mettez ici le chemin correct
     } else {
       resultImage.src = ""; // Si aucune option n'est choisie, on cache l'image
     }
