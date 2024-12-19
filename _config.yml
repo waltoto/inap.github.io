@@ -21,6 +21,7 @@ author: ImportNumpyAsPd
 
 navbar-links:
   Table of content: 
+    - Introduction: "#introduction"
     - Actor Network: "#actornetwork"
   About Us: "aboutme"
   Resources:
