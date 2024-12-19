@@ -115,7 +115,7 @@ This example lets you select an image from a dropdown, and it displays the image
 <script src="img_list.js"></script>
 ------------------------------------------------------------------------------------------------------------------------------------
 
-<div id='desjolisplot'/>  
+<div id="desjolisplot"></div>
 
 # Plot 1 :
 ## alternative 1
