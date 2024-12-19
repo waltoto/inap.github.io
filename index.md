@@ -11,6 +11,16 @@ First, we present a general visualization of the data available in the datasets 
 We have created a dataset called `Movie`. The `Movie` contains Metadata information originally from the Freebase database that is extracted from the [*CMU Movie Summary Corpus*][CMU] dataset. We added information for each film from the [IMDb Non-Commercial Database][IMDB]. By doing so, we have in our possession a single dataset of approximately 61000 films, where for each film we have information such as the genres, ratings, directors, etc. 
 In parallel, we have created another dataset called `Actor` from the *CMU Movie Summary Corpus*. This dataset has for index one actor and has for features every films that he plaid in, at which age, and there is also other features. 
 
+<div id="introduction"></div> 
+
+## Introduction 
+
+Scientists, let’s talk about networking. Oh, not the kind where you trade research ideas over stale coffee at conferences – no, this is Hollywood-level networking. You may think publishing papers and climbing the academic ladder is tough, but imagine trying to make it in the world of cinema. In both science and film, it seems like knowing the right people can open doors that talent alone cannot.
+
+So, let’s ask ourselves: what does it take to land the lead role? A jaw-dropping audition? An exceptional physique?  Sure, but let’s be honest – your CV might need more social proof than anything else. For actors, the “connections” game isn’t just LinkedIn endorsements; it’s sharing the screen, the limelight, and the credit scroll with other stars.
+
+Career analysis, gender inequality, relationships with directors and language barriers are just some of the obstacles on the road to the red carpet. "Ready, Set, Action!" Let the data speak !
+
 <div id="actornetwork"></div> 
 
 ## Actor Network: Career
