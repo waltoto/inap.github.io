@@ -2,7 +2,7 @@
 layout: home
 title: Evolution of the network of actors in the film industry through time 
 subtitle: ImportNumpyAsPd
-cover-img: /assets/img/maxresdefault.jpg
+cover-img: /assets/img/fond_emile.jpg
 mathjax: true
 ---
 
