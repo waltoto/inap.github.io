@@ -22,7 +22,7 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
 
   <div>
-    <iframe src="assets/img/career_Johny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
+    <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
 
   <div>
@@ -43,6 +43,17 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
     <img src="assets/img/Total_nbr_filmshisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
+<div class="heightactor">
+    <img src="assets/img/actor_heighthisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+</div>
+
+<div class="startage">
+    <img src="assets/img/Career_Start_agehisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+</div>
+
+<div class="careerlength">
+    <img src="assets/img/Career_lengthhisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+</div>
 
 
 ### Here below how to proper implement a picture
