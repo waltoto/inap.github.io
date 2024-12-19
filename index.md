@@ -49,7 +49,6 @@ Who do you think has played in 9 different languages throughout their career?
   
 </details>
 
-
 ## Try to plot an interactive graph (2nd test)
 
 Here below how to plot easely an interactive plot, 100% size 
