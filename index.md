@@ -63,6 +63,36 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
+<div style="margin-top: 20px;">
+  <h4 style="color: black; text-align: center;">Do actors who have performed in a particular language also perform in other languages? </h4>
+  <hr style="border-top: 1px dotted #ccc;" />
+
+  <div style="text-align: center;">
+    <label for="choice1">Select a language:</label>
+    <select id="choice1" onchange="changeImageHTML()" style="padding: 5px; margin-left: 10px;">
+      <option value="histogram_English">English</option>
+      <option value="histogram_French">French</option>
+      <option value="histogram_Hindi">Hindi</option>
+      <option value="histogram_Italian">Italian</option>
+      <option value="histogram_Spanish">Spanish</option>
+    </select>
+  </div>
+
+  <div id="result1" style="
+      height: 400px; /* Augmentation de la hauteur */
+      width: 80%; /* Augmentation de la largeur */
+      margin: 0px auto; /* Ajout d'espace autour */
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9; /* Fond légèrement gris */
+    ">
+    <p style="color: gray;">Select a language !</p>
+  </div>
+</div>
+<script src="img_list.js"></script>
+
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/group_distribution_plot.html %}
 </div>
