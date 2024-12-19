@@ -114,6 +114,9 @@ This example lets you select an image from a dropdown, and it displays the image
 
 <script src="img_list.js"></script>
 ------------------------------------------------------------------------------------------------------------------------------------
+
+<div id='desjolisplot'/>  
+
 # Plot 1 :
 ## alternative 1
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
