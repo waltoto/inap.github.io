@@ -19,6 +19,25 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
   {% include_relative assets/img/career_with_3_cluster.html %}
 </div>
 
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+
+  <div>
+    <iframe src="assets/img/career_Johny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
+  </div>
+
+  <div>
+    <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:300px; border:none;"></iframe>
+  </div>
+
+  <div>
+    <iframe src="assets/img/career_Samuel L. Jackson.html" style="width:100%; height:300px; border:none;"></iframe>
+  </div>
+
+  <div>
+    <iframe src="assets/img/career_Yao Ming.html" style="width:100%; height:300px; border:none;"></iframe>
+  </div>
+
+</div>
 
 
 ### Here below how to proper implement a picture
