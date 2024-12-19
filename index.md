@@ -63,6 +63,10 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  {% include_relative assets/img/group_distribution_plot.html %}
+</div>
+
 
 ### Here below how to proper implement a picture
 
