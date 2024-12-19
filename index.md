@@ -59,6 +59,9 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
   {% include_relative assets/img/gender_camembert_cluster.html %}
 </div>
 
+<div class="nxactorlanguage">
+    <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
+</div>
 
 
 ### Here below how to proper implement a picture
