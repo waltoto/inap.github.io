@@ -24,6 +24,8 @@ navbar-links:
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
     - The IMDB data: "https://developer.imdb.com/non-commercial-datasets/"
+  Table of content: 
+    - [Des jolis plots](#desjolisplot)
 
 ################
 # --- Logo --- #
