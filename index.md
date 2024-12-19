@@ -177,6 +177,8 @@ This example lets you select an image from a dropdown, and it displays the image
 </div>
 <script src="img_list.js"></script>
 
+<div id="encoredesjolisplot"></div>
+
 ## Plot 2
 
 <div style="width: 70%; height: 600px; margin: 0 auto;">
