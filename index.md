@@ -49,20 +49,20 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 </div>
 
-<div class="totalnbrfilm">
-    <img src="assets/img/Total_nbr_filmshisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  {% include_relative assets/img/Total_nbr_filmshisto.html %}
 </div>
 
-<div class="heightactor">
-    <img src="assets/img/actor_heighthisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  {% include_relative assets/img/actor_heighthisto.html %}
 </div>
 
-<div class="startage">
-    <img src="assets/img/Career_Start_agehisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  {% include_relative assets/img/Career_Start_agehisto.html %}
 </div>
 
-<div class="careerlength">
-    <img src="assets/img/Career_lengthhisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  {% include_relative assets/img/Career_lengthhisto.html %}
 </div>
 
 <div style="width: 100%; height: 600px; margin: 0 auto;">
