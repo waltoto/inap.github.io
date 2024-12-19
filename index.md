@@ -39,6 +39,11 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
 
 </div>
 
+<div class="totalnbrfilm">
+    <img src="assets/img/Total_nbr_filmshisto.png" style="display: block; margin: 0 auto; width: 80%;"/>
+</div>
+
+
 
 ### Here below how to proper implement a picture
 
