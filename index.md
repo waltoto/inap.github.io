@@ -4,6 +4,7 @@ title: Evolution of the network of actors in the film industry through time
 subtitle: ImportNumpyAsPd
 cover-img: /assets/img/Image_chatgpt_network_time.jpg
 mathjax: true
+full-width: true
 ---
 
 ## DATA exploration 
