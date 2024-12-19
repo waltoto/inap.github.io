@@ -21,7 +21,7 @@ author: ImportNumpyAsPd
 
 navbar-links:
   Table of content: 
-    - Introduction: "#desjolisplot"
+    - Actor Network: "#actornetwork"
   About Us: "aboutme"
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
