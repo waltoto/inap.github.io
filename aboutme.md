@@ -4,6 +4,29 @@ title: About Us
 subtitle: Who are we 
 ---
 
-We are five students from EPFL (alexandre, emile, pierre, thibault and thomas). Our project was part of the 2023 edition of the class “Applied Data Analysis” (CS-401) at EPFL. Find more information about the course: [GitHub](https://epfl-ada.github.io/teaching/fall2024/cs401/)
+We are five students from EPFL (Alexandre, Emile, Pierre, Thibault, and Thomas). Our project was part of the 2023 edition of the class “Applied Data Analysis” (CS-401) at EPFL. Find more information about the course: [GitHub](https://epfl-ada.github.io/teaching/fall2024/cs401/)
 
-![Github image](assets/img/github-white.png)
+![Github image](assets/img/avatar-icon.png)
+
+<div style="display: flex; justify-content: space-evenly;">
+  <div style="text-align: center;">
+    <img src="assets/img/avatar-icon.png" alt="Alexandre" style="width: 80px; height: 80px; border-radius: 50%;">
+    <p>Alexandre</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/img/avatar-icon.png" alt="Emile" style="width: 80px; height: 80px; border-radius: 50%;">
+    <p>Emile</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/img/avatar-icon.png" alt="Pierre" style="width: 80px; height: 80px; border-radius: 50%;">
+    <p>Pierre</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/img/avatar-icon.png" alt="Thibault" style="width: 80px; height: 80px; border-radius: 50%;">
+    <p>Thibault</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/img/avatar-icon.png" alt="Thomas" style="width: 80px; height: 80px; border-radius: 50%;">
+    <p>Thomas</p>
+  </div>
+</div>
