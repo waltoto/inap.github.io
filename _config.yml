@@ -20,12 +20,12 @@ author: ImportNumpyAsPd
 ###############################################
 
 navbar-links:
+  Table of content: 
+    - Introduction: "#desjolisplot"
   About Us: "aboutme"
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
     - The IMDB data: "https://developer.imdb.com/non-commercial-datasets/"
-  Table of content: 
-    - Introduction: "#desjolisplot"
 
 ################
 # --- Logo --- #
