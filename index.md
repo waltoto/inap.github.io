@@ -98,15 +98,6 @@ In parallel, we have created another dataset called `Actor` from the *CMU Movie 
 </div>
 
 
-### Here below how to proper implement a picture
-
-The class is the name you want to put at your image if the image is not showing. 
-
-You can adjust the size of the image by adjusting the width 
-
-<div class="internet">
-    <img src="assets/img/nbr-film-genre.png" style="display: block; margin: 0 auto; width: 80%;"/>
-</div>
 
 ### How to put mathematical equation 
 
