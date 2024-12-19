@@ -65,19 +65,6 @@ If you want to reduce the size, copy paste the code below, here the scaling fact
 </div>
 
 
-## Try image time scrolling
-
-Click on the `start` button to see the evolution of the newtork over time. 
-
-<div id="image-container">
-    <img id="image-display" src="assets/img/distribution-actor-director-age-1-film.png" alt="Image 1" style="display: block; margin: 0 auto; width: 80%;"/>
-</div>
-
-<button id="action-button"> start </button>
-
-<script src="script.js"></script>
-
-
 ## Try something else 
 
 This example lets you select an image from a dropdown, and it displays the image dynamically.
