@@ -181,9 +181,9 @@ Just as I thought. The model has separated the actors into 3 different career ty
 Now, let’s dig deeper into these clusters. First question: is there truth to the stereotype that superstars are all good-looking, in their mid-thirties, and 1.80 meters tall? We can’t measure attractiveness here, but let’s check out height and age distributions at the start of their careers.
 
 
- <div style="flex: 4; height: 400px;">
+<div style="flex: 4; height: 400px;">
     <iframe src="assets/img/actor_heighthisto.html" style="width:100%; height:100%; border:none;"></iframe>
-  </div>
+</div>
 
   <div style="flex: 4; height: 400px;">
     <iframe src="assets/img/Career_Start_agehisto.html" style="width:100%; height:100%; border:none;"></iframe>
@@ -192,17 +192,18 @@ Now, let’s dig deeper into these clusters. First question: is there truth to t
 The 1.80m cliché? Busted. A **Student's t-test** test backs it up: extremes in height are less common among actors. While there are exceptions, like superstars representing communities with dwarfism (e.g., Kenny Baker and Billy Barty), taller individuals—like basketball players (Yao, we see you!)—do seem to face challenges.
 But what about starting young? That’s a different story. Look at the data—early starters often have an edge over late-arrival, provided they stick with it long enough to transition into adult roles!
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
-  {% include_relative assets/img/Career_lengthhisto.html %}
-</div>
+
+  <div style="flex: 4; height: 400px;">
+    <iframe src="assets/img/Career_lengthhisto.html" style="width:100%; height:100%; border:none;"></iframe>
+  </div>
 
 Career length confirms it: longevity is key to joining the ranks of the greats. Meanwhile, over 40% of Weekend actors play for just a single year!
 Unfortunately, not all the findings are uplifting. When examining gender disparities, the results are disheartening. Let's see what the data say: 
 
-
-<div style="width: 100%; height: 600px; margin: 0 auto;">
-  {% include_relative assets/img/gender_camembert_cluster.html %}
+<div style="flex: 4; height: 400px;">
+    <iframe src="assets/img/gender_camembert_cluster.html" style="width:100%; height:100%; border:none;"></iframe>
 </div>
+  
 
  A **Chi-squared** reveals a stark imbalance: women are severely underrepresented among the most prolific actors. This disparity highlights a systemic issue in the film industry, one that calls for reflection and action.
 
@@ -297,8 +298,9 @@ After applying the Kmeans algorithm, 4 different types were determined. Let’s 
 - Cluster 0 - *"Lot movies and good ratings" Directors* : These directors had prolific careers with and without successful actors. They made a lot of movies and have an overall high ratings. 
 - Cluster 1 - *"Lot movies and good ratings" Directors + Successful Actors* : These one are « la crème de la crème ». They have made a lot of movies with high rating like the directors in the previous clusters but they have directed a lot of successful actors. They are the one who shaped cinema. 
 
-<div style="flex: 4; height: 600px; margin: 0 auto;">
-    <iframe src="assets/img/Alex_Plot_Camembert_Kmeans.html" style="width:100%; height:600px; border:none;"></iframe>
+
+<div style="flex: 4; height: 400px;">
+    <iframe src="assets/img/Alex_Plot_Camembert_Kmeans.html" style="width:100%; height:100%; border:none;"></iframe>
 </div>
 
 Were you able to guess to wich category belongs each of our previous directors ?
