@@ -166,39 +166,14 @@ That's nice! It seems that the model has separated the players into 3 categories
 
 Just as I thought. The model has separated our actors into 3 different career types:
 
-1.	Cluster 0: The Sunday Actors
-o	These individuals have little or no career in acting, often appearing in just one or two projects. Over 50,000 actors (percentage) in our dataset fall into this category, accounting for the vast majority.
-2.	Cluster 1: The Superstars
-o	This elite group of just over 200 actors (percentage) represents the pinnacle of the industry. They boast prolific filmographies and careers spanning decades. “info sur la longueur moyenne et le nombre de films moyen »
-3.	Cluster 2: The Steady Professionals
-o	These actors enjoy respectable, long-lasting careers. They may not have reached superstardom, but their contributions are significant. This group comprises around 2,000 actors. (percentage) “info sur la longueur moyenne et le nombre de films moyen »
+* **Cluster 0: The Sunday Actors**  
+	These individuals have little or no career in acting, often appearing in just one or two projects. Over 50,000 actors (percentage) in our dataset fall into this category, accounting for the vast majority.
+* **Cluster 1: The Superstars**  
+  This elite group of just over 200 actors (percentage) represents the pinnacle of the industry. They boast prolific filmographies and careers spanning decades. “info sur la longueur moyenne et le nombre de films moyen »
+*	**Cluster 2: The Steady Professionals**  
+	These actors enjoy respectable, long-lasting careers. They may not have reached superstardom, but their contributions are significant. This group comprises around 2,000 actors. (percentage) “info sur la longueur moyenne et le nombre de films moyen »
 
-# Clusters of Actors in the Dataset
 
-## Cluster 0: **The Sunday Actors**
-- **Description**: These individuals have little or no career in acting, often appearing in just one or two projects.
-- **Statistics**:
-  - Over **50,000 actors** fall into this category, representing the **vast majority** of the dataset.
-
----
-
-## Cluster 1: **The Superstars**
-- **Description**: This elite group represents the pinnacle of the industry, comprising actors with prolific filmographies and careers spanning decades.
-- **Statistics**:
-  - Just over **200 actors** fall into this cluster (percentage to be added).
-  - **Additional Info**:
-    - Average career length: _to be computed_.
-    - Average number of films: _to be computed_.
-
----
-
-## Cluster 2: **The Steady Professionals**
-- **Description**: These actors enjoy respectable, long-lasting careers. While they may not have reached superstardom, their contributions to the industry are significant.
-- **Statistics**:
-  - Around **2,000 actors** belong to this cluster (percentage to be added).
-  - **Additional Info**:
-    - Average career length: _to be computed_.
-    - Average number of films: _to be computed_.
 
 
 Let's delve deeper into the analysis of these clusters! The first thing we're going to control is the famous cliché: all superstar are good-looking in their mid-thirties and 1.80 meters tall. We can't control their appearance here, but let's look at their height and age distribution at the start of their careers.
