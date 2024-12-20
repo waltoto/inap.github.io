@@ -179,12 +179,13 @@ Just as I thought. The model has separated our actors into 3 different career ty
 Let's delve deeper into the analysis of these clusters! The first thing we're going to control is the famous cliché: all superstar are good-looking in their mid-thirties and 1.80 meters tall. We can't control their appearance here, but let's look at their height and age distribution at the start of their careers.
 
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
-  {% include_relative assets/img/actor_heighthisto.html %}
-</div>
-
-<div style="width: 100%; height: 600px; margin: 0 auto;">
-  {% include_relative assets/img/Career_Start_agehisto.html %}
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="width: 50%; height: 600px;">
+    {% include_relative assets/img/actor_heighthisto.html %}
+  </div>
+  <div style="width: 50%; height: 600px;">
+    {% include_relative assets/img/Career_Start_agehisto.html %}
+  </div>
 </div>
 
 
