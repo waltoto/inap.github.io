@@ -183,11 +183,11 @@ Now, let’s dig deeper into these clusters. First question: is there truth to t
  <div style="display: flex; justify-content: space-between; gap: 5px; height: 600px;">
   <!-- Premier graphe -->
   <div style="flex: 1; height: 100%;">
-    <iframe src="assets/img/actor_heighthisto.html" style="width: 150%; height: 100%; border: none;"></iframe>
+    <iframe src="assets/img/actor_heighthisto.html" style="width: 100%; height: 100%; border: none;"></iframe>
   </div>
   <!-- Deuxième graphe -->
   <div style="flex: 1; height: 100%;">
-    <iframe src="assets/img/Career_Start_agehisto.html" style="width: 150%; height: 100%; border: none;"></iframe>
+    <iframe src="assets/img/Career_Start_agehisto.html" style="width: 100%; height: 100%; border: none;"></iframe>
   </div>
 </div>
 
