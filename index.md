@@ -208,6 +208,15 @@ Unfortunately, not all the findings are uplifting. When examining gender dispari
 
  A **t-test** reveals a stark imbalance: women are severely underrepresented among the most prolific actors. This disparity highlights a systemic issue in the film industry, one that calls for reflection and action.
 
+<div id="actorsdirectorsrelations"></div> 
+
+## Actors/Directors relations
+
+
+<div id="networkingthroughlanguages"></div> 
+
+## Networking through languages
+
 
 
 But hey, now that we’ve got a good grasp of networks, here’s a new question for you : What do you think ties these actors together ?
@@ -285,7 +294,9 @@ Next, we calculate the proportion of actors who have worked in various languages
 
 Ah, the victory of multiculturalism! Career actors often expand their horizons by working across multiple cultures. The big loser in this game is Indie cinema, which, despite its high productivity, rarely features prominently in the careers of long-term actors. Meanwhile, English dominates the field, appearing in nearly every actor’s CV (XX%).
 
-#### Conclusion
+<div id="conclusion"></div> 
+
+## Conclusion
 
 We've come to the end of our journey into the exciting world of careers and relationships in the film industry. Harnessing the power of K-means clustering, t-tests and chi2, directed graphs and network analysis, the data revealed some fascinating insights. First of all, you don't need to be 1m80 tall for your career to take off. Instead, learn other languages and try to export yourself abroad. (Don't start with English) Ah, and the fight for gender equality in cinema still has a lot of work to do... and just because you work with successful people doesn't mean you're a successful person. 
 I hope you enjoyed reading this, have a Merry Christmas and long live ADA!
