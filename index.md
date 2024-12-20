@@ -225,7 +225,7 @@ Fortunately, the careers of actors were previously analyzed in the previous sect
 
 
 <div class="nxactorlanguage">
-    <img src="assets/img/Alex_Plot_Graph_Randoms.png" style="display: block; margin: 0 auto; width: 80%;"/>
+    <img src="assets/img/Alex_Plot_Graph_Random.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
 
