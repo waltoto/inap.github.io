@@ -22,7 +22,11 @@ author: ImportNumpyAsPd
 navbar-links:
   Table of content: 
     - Introduction: "#introduction"
-    - Actor Network: "#actornetwork"
+    - Carrier profiles: "#actornetwork"
+    - Actor/Directors relations: "#actorsdirectorsrelations"
+    - Networking through languages: "#networkingthroughlanguages"
+    
+    
   About Us: "aboutme"
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
