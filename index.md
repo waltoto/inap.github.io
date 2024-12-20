@@ -17,9 +17,8 @@ So, let’s ask ourselves: what does it take to land the lead role? A jaw-droppi
 Career analysis, gender inequality, relationships with directors and language barriers are just some of the obstacles on the road to the red carpet. Let's use some data analysis magic to unravel the codes and secrets of the cinematic universe ! 
 
 <div align="center">
-**"Ready, Set, Action!" Let the data speak !**
+<b>"Ready, Set, Action!" Let the data speak!</b>
 </div>
-
 
   
 <div style="text-align: center;">
@@ -28,7 +27,7 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 <div id="actornetwork"></div> 
 
-## Actor Network: Career
+## Career Profile
 
 First step: career profiles! By charting the number of films each actor has appeared in every year since their career began, we’ve created career profiles. These profiles capture the ebbs and flows of their productivity, revealing fascinating insights. This should enable us to differentiate between the Weekend actor who made a film with his cousin and the Hollywood legend. They take very different shapes and magnitude, highlighting some incredible careers. Let’s take a closer look at some of these extraordinary journey. Let's see who is the most prolific actor of the century.
 
@@ -53,7 +52,7 @@ First step: career profiles! By charting the number of films each actor has appe
     <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Mel Blanc</strong><br>
-      Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
+      Mel Blanc was an American voice actor known as "The Man of a Thousand Voices", famous for voicing Bugs Bunny, Daffy Duck, and other iconic <i>Looney Tunes</i> characters.
     </div>
   </div>
   
@@ -84,7 +83,7 @@ First step: career profiles! By charting the number of films each actor has appe
     <img src="assets/img/film_pulpfiction.jpg" alt="Uma Thurman" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Uma Thurman</strong><br>
-      Best known for her roles in Quentin Tarantino's Pulp Fiction and the Kill Bill series, Uma Thurman is an acclaimed American actress
+      Best known for her roles in Quentin Tarantino's <i>Pulp Fiction</i> and the <i>Kill Bill</i> series, Uma Thurman is an acclaimed American actress
     </div>
   </div>
   
@@ -112,7 +111,7 @@ First step: career profiles! By charting the number of films each actor has appe
     <img src="assets/img/film_MaceWindu.jpeg" alt="Mace Windu" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Samuel L. Jackson</strong><br>
-      Samuel L. Jackson is a highly acclaimed actor renowned for his memorable performances in films such as *Star Wars* and his portrayal of Nick Fury in the Marvel Cinematic Universe. 	With his commanding presence and iconic voice, he is one of the most influential and prolific actors in Hollywood.
+      Samuel L. Jackson is a highly acclaimed actor renowned for his memorable performances in films such as <i>Star Wars</i> and his portrayal of Nick Fury in the Marvel Cinematic Universe. 	With his commanding presence and iconic voice, he is one of the most influential and prolific actors in Hollywood.
     </div>
   </div>
   
@@ -145,7 +144,7 @@ One last example for the road, let's take a Weekend actor. In fact, the data set
     <img src="assets/img/film_yao.jpg" alt="Yao Ming in the year of yao" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Yao Ming</strong><br>
-      Yao Ming is a retired Chinese professional basketball player who became an international icon as a dominant center for the Houston Rockets in the NBA. Standing 7'6" (2.29 m) tall, he was known for his exceptional skill, agility, and impact on popularizing basketball in China. He also lent his voice to a character in the animated film *The Magic Aster* in 2009.
+      Yao Ming is a retired Chinese professional basketball player who became an international icon as a dominant center for the Houston Rockets in the NBA. Standing 7'6" (2.29 m) tall, he is known for his exceptional skill, agility, and impact on popularizing basketball in China. He also lent his voice to a character in the animated film <i>The Magic Aster</i> in 2009.
     </div>
   </div>
   
@@ -154,7 +153,7 @@ One last example for the road, let's take a Weekend actor. In fact, the data set
 And yes, we're talking about the Chinese NBA basketball player featured in the film *The Magic Aster*!  This data really does have it all.
 
 As much fun as it is to inspect these career profiles by hand, we're going to use the power of clustering algorithms to classify these career types for us. Make way for **unsupervised K-Means**!  
-A little **elbow method** to determine the number of clusters, while keeping the number of clusters low enough to facilitate interpretation... And here are the **centroid** profiles! 
+A little **Elbow method** to determine the number of clusters, while keeping the number of clusters low enough to facilitate interpretation... And here are the **centroid** profiles! 
 
 
 <div style="flex: 4; height: 600px;">
@@ -193,7 +192,7 @@ Now, let’s dig deeper into these clusters. First question: is there truth to t
     <iframe src="assets/img/Career_Start_agehisto.html" style="width:100%; height:100%; border:none;"></iframe>
   </div>
 
-The 1.80m cliché? Busted. A **Student's t-test** test backs it up: extremes in height are less common among actors. While there are exceptions, like superstars representing communities with dwarfism (e.g., Kenny Baker and Billy Barty), taller individuals—like basketball players (Yao, we see you!)—do seem to face challenges.
+The 1.80m cliché? Busted, a **Student's t-test** backs it up. Nevertheless, extremes in height are less common among actors as in the global population. While there are exceptions, like superstars representing communities with dwarfism (e.g., Kenny Baker and Billy Barty), taller individuals—like basketball players (Yao, we see you!)—do seem to face challenges.
 But what about starting young? That’s a different story. Look at the data—early starters often have an edge over late-arrival, provided they stick with it long enough to transition into adult roles!
 
 
@@ -215,30 +214,32 @@ Unfortunately, not all the findings are uplifting. When examining gender dispari
 
 ## Actors/Directors relations
 
-What interesting findings and fun facts about the career of actors have we uncovered. But enough talking about actors, they already have enough glory. We only think about them when we think about movies and it is quite natural as we literally see them for 2 hours straight. However, a movie is not only made with people on the screen. A lot of people are working on it in the shadow. Indeed, if a movie is made, it is because someone had an idea for a script and a will to create something. This person is the *director*, the pillar of every movie.
+What interesting findings and fun facts about the career of actors have we covered. But enough talking about actors, they already have enough glory. We only think about them when we think about movies and it is quite natural as we literally see them for 2 hours straight. However, a movie is not only made with people on the screen. A lot of people are working on it in the shadow. Indeed, if a movie is made, it is because someone had an idea for a script and a will to create something. This person is the **director**, the pillar of every movie.
 
 ### Successful actor
 
-As you guessed it, this part is oriented to the directors and especially famous directors. The goal will be to determine the relation between *successful actors* and the *directors* and finally to determine different types of directors based on our finding. But before dwelling into famous and successful directors (or maybe bad directors), we must first determine the successful actors. This sounds easy right, when you read « successful actors », I am pretty sure a short list of names popped into your head. Unfortunately, we are data analyst and we need more than just a list of names, we need precise criteria that are valid and can be applied for all actors (boring right).</br>
-Fortunately, the careers of actors were previously analyzed in the previous section, this helped determine the characteristics of actors. Later on, we created a huge network of actors. Their link, based on if they work on the same movie was computed. Finally, specific criteria to determine what is a successful actor were defined and better refined after some analysis, here is the list of them :
-1. Number of films : 12 movies
-2. Centrality : above the average centrality of the network 
-3. Ratings : above the mean ratings of their specific movie genre
+As you guessed it, this part is oriented to the directors and especially famous directors. The goal will be to analyze the relation between **successful actors** and the **directors** and finally to identify different types of directors based on our findings. But before dwelling into famous and successful directors (or maybe bad directors), we must first determine the successful actors. This sounds easy right, when you read « successful actors », I am pretty sure a short list of names popped into your head. Unfortunately, we are data analyst and we need more than just a list of names, we need precise criteria that are valid and can be applied for all actors (*boring right !?*).  
+
+
+Fortunately, the careers of actors were previously analyzed in the previous section, this help characterise the actors. Later on, we created a huge network of actors. The connections between actors were determined based on their participation in the same movie. Additionally, specific criteria for defining a successful actor were established and refined after further analysis. Here is the list of these criteria :
+1. **Minimum number of films** : 12 movies
+2. **Eigen-vector centrality** : above the average eigen-vector centrality of the network 
+3. **Ratings** : above the mean ratings of their specific movie genre
 
 
 <div class="nxactorlanguage">
     <img src="assets/img/Alex_Plot_Graph_Random.png" style="display: block; margin: 0 auto; width: 100%;"/>
 </div>
 
-### Bipartite directed graph
+### Bipartite Directed Graph
 
-After applying this list of criteria to the original list of actors, approximately 2300 actors were labelled as successful. This represent less than 2% of the original number of actors (yes, not everyone is successful, sorry you had to hear that here). We can finally start playing with the directors of films. In order to determine the relevant directors with respect to these actors, a « directed bipartite graph between actors and directors » was computed. That’s a lot of complicated words for something really simple, here is the explanation : 
-- Structure: 
+After applying this list of criteria to the original list of actors, approximately 2300 actors were labelled as successful. This represent less than 2% of the original number of actors (yes, not everyone is successful, sorry you had to hear that here). We can finally start playing with the directors of films. In order to determine the relevant directors with respect to these actors, a **directed bipartite graph** between actors and directors was computed. That’s a lot of complicated words for something really simple, here is the explanation : 
+- **Structure**: 
     - Nodes represent actors and directors.  
     - Directed edges flow from actors to directors.  
     - An edge exists if an actor and a director have worked together.  
-- Edge Weight: Represents the number of films they collaborated on.  
-- Director Node Value: The sum of edge weights directed to each director.  
+- **Edge Weight**: Represents the number of films they collaborated on.  
+- **Director Node Value**: The sum of edge weights directed to each director.  
 
 By creating this graph, a list of directors related to successful actors was done. As an image is worth a 1000 words, here are 4000 words :
 
@@ -270,10 +271,8 @@ By creating this graph, a list of directors related to successful actors was don
   </div>
 </div>
 <script src="img_list.js"></script>
-# pas oublier le graph
 
-
-Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :   
+Now that you have understood and visualized the graph, let’s do a little quizz interlude :   
 
 
 #### Quizz:
@@ -292,10 +291,12 @@ Who do you think is the most feed directors among these four directors : Quentin
     <img src="assets/img/portrait_woodyallen.jpg" alt="Woody Allen" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
       <strong>Woody Allen</strong><br>
-	- Woody Allen is the most feed directors among all directors : total weight of 302  
-	- Francis Ford Coppola : 162  
-	- Quentin Tarantino : 76  
-	- Stanley Kubrick : 58  
+	    <ul>
+		<li>Woody Allen is the most fed director among all directors: total weight of 302</li>
+		<li>Francis Ford Coppola: 162</li>
+	  	<li>Quentin Tarantino: 76</li>
+	  	<li>Stanley Kubrick: 58</li>
+	</ul>
     </div>
   </div>
   
@@ -320,57 +321,53 @@ Which actor has the mode weighted edge ? In other words, which actor has worked 
 
 ### Type of directors
 
+We choose to show the **directed graph** of this four directors for specific reasons (not just only because we did a df.sample(), we are professional). Like actors, directors have different careers and behave differently. Indeed, this can be easily noticed by the difference in the four previous graph. Hence, an interesting thing to do is to categorize and classify type of directors. You guessed it, we are going to do clustering once more. This brings us to the next step of our director’s journey : **Kmeans**. Let’s dive into it :
 
-We choose to show the directed graph of this four directors for specific reasons (not just only because we did a df.sample(), we are professional). Like actors, directors have different careers and behave differently. Indeed, this can be easily noticed by the difference in the four previous graph. Hence, an interesting thing to do is to categorize and classify type of directors. You guessed it, we are going to do clustering once more. This brings to the next step of our director’s journey : Kmeans. 
-After applying the Kmeans algorithm, 4 different types were determined. Let’s dive into it :
-
-- Cluster 2 - *Bad directors* : The directors in this cluster are not good at what they do. They have all the red flags : few movies, low occurrences of working with a successful actor and a low ratings of theirs movie (below average). 
-- Cluster 3 - *"Few movies but high ratings" Directors* : These directors have worked with a few successful actors and they have directed not that many movie.  However, each of theirs movie is a hit and has a high rating.
-- Cluster 0 - *"Lot movies and good ratings" Directors* : These directors had prolific careers with and without successful actors. They made a lot of movies and have an overall high ratings. 
-- Cluster 1 - *"Lot movies and good ratings" Directors + Successful Actors* : These one are « la crème de la crème ». They have made a lot of movies with high rating like the directors in the previous clusters but they have directed a lot of successful actors. They are the one who shaped cinema. 
+- Cluster 2 - **Bad directors** : The directors in this cluster are not good at what they do. They have all the red flags : few movies, low occurrences of working with a successful actor and a low ratings of theirs movie (below average). 
+- Cluster 3 - **"Few movies but high ratings" Directors** : These directors have worked with a few successful actors and they have directed not that many movies.  However, each of theirs movie is a hit and has a high rating.
+- Cluster 0 - **"Lot movies and good ratings" Directors** : These directors have prolific careers with and without successful actors. They make a lot of movies and have an overall high ratings. 
+- Cluster 1 - **"Lot movies and good ratings" Directors + Successful Actors** : These one are *la crème de la crème*. They have made a lot of movies with high rating like the directors in the previous clusters but they have directed a lot of successful actors. They are the one who shaped cinema. 
 
 
 <div style="flex: 4; height: 400px;">
     <iframe src="assets/img/Alex_Plot_Camembert_Kmeans.html" style="width:100%; height:100%; border:none;"></iframe>
 </div>
 
-Were you able to guess to wich category belongs each of our previous directors ?
-- Cluster 2 - *"Bad" directors* is Ernest Pintoff
-- Cluster 3 - *"Few movies but high ratings" Directors* is Takeshi Kitano
-- Cluster 0 - *"Lot movies and good ratings" Directors* is Ingmar Bergman
-- Cluster 1 - *"Lot movies and good ratings" Directors + Successful Actors* is Steven Spielberg
+Are you able to guess which category belongs each of our previous directors ?
+- Cluster 2 - **"Bad" directors** is Ernest Pintoff
+- Cluster 3 - **"Few movies but high ratings" Directors** is Takeshi Kitano
+- Cluster 0 - **"Lot movies and good ratings" Directors** is Ingmar Bergman
+- Cluster 1 - **"Lot movies and good ratings" Directors + Successful Actors** is Francis Ford Coppola
 
-We can now analyse each different with the help of beautiful graphs to better comprehend their characteristics.
+We can now analyse the differences between cluster with the help of beautiful graphs to better comprehend their characteristics.
 
 <div style="flex: 4; height: 600px;">
     <iframe src="assets/img/Alex_Plot_NOA_Vs_Sum_Weight_Director_Cluster.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
-As expcted as we rise throught the quality of directors, the directors gain in total weight as well as in number of edge (successful actors). As can be seen, the bad directors and the one with a few movies are similar as they both have less weight and less edge. They are linked in this aspect and resesmbled.
+As expected as we rise through the quality of directors, the directors gain in total weight as well as in number of edge (i.e. successful actors). As can be seen, the bad directors and the one with a few movies are similar as they both have less weight and less edge. They are linked in this aspect and are similar.
 
 <div style="flex: 4; height: 600px;">
     <iframe src="assets/img/Alex_Plot_NOF_Vs_Sum_Weight.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
-The separation bnetween each cluster is also well defined in the plot above. As expected, after a certain number of movie or weight, you are directly labelled in cluster 0 or 1. Neverthelss, the number of movie is not a hard critera for being into cluster 1, it is ncessary that you encounter a lot of successful actors in your career. Once more, cluster 2 and 3 overlapped due to their similarities in their number of films or total weight.
+The separation between each cluster is also well defined in the above plot. As expected, after a certain number of movie or weight, you are directly labelled in cluster 0 or 1. Nevertheless, the number of movie is not a hard criterion for being into cluster 1, it is necessary that you encounter a lot of successful actors in your career. Once more, cluster 2 and 3 overlapped due to their similarities in their number of films or total weight.
 
 <div style="flex: 4; height: 600px;">
     <iframe src="assets/img/Alex_Plot_Mean_Rating_Director_Cluster.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
-The true difference between cluster 2 and cluster 3 shines in their average ratings, as can be seen from the plot above. The *bad director* are not labelled as bad for no reason, their average rating goes frmo 3 to 5.8, whereas the rest are almost all above 6. Indeed, the rest of the directors linked to successful actors performed well in their movies and acquire high rating. The mean ratings for cluster 3 is even higher than the one for cluster 0 which is impressive. 
+The true difference between cluster 2 and cluster 3 shines in their average ratings, as can be seen from the plot above. The *bad director* are not labelled as bad for no reason, their average rating goes from 3 to 5.8, whereas the rest are almost all above 6. Indeed, the rest of the directors linked to successful actors performed well in their movies and acquire high ratings.
 
 <div style="flex: 4; height: 600px;">
     <iframe src="assets/img/Alex_Plot_NOF_Vs_Career_Start.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
-Finally, by comparing the number of films directed and the career startig age, it seems that the best time time to begin ones career is between 20 and 35 year old. However, this will not impact your success in your career. Once more, it can be noticed that cluster 2 and 3 seems to have less films registered due to shorter career for the bad directors or few movies for the cluster 3.</br>
-Moreover, this plot motivate once more the linked with the number of movies performed by each cluster. The bad director did not do a lot of movies, potentially due to their bad performance.  Nonetheless, some directors
+Finally, by comparing the number of films directed and the career starting age, it seems that the best time to begin one's career is between 20 and 35 year old. However, this will not impact your success in your career. Once more, it can be noticed that cluster 2 and 3 seems to have less films registered due to shorter career for the bad directors or few movies for the cluster 3. Moreover, this plot motivate once more the link with the number of movies performed by each cluster. The bad director did not work on a lot of movies, potentially due to their bad performance. 
 
 <div id="networkingthroughlanguages"></div> 
 
 ## Networking through languages
-
 
 
 But hey, now that we’ve got a good grasp of networks, here’s a new question for you : What do you think ties these actors together ?
@@ -382,7 +379,7 @@ We built a **network** of co-actors, used a spring layout to arrange it, and col
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
-Two strikingly distinct groups pop right out, don’t they? It’s the ultimate battle of cinematic giants: Hollywood and Bollywood, sweeping nearly every other culture into their orbits. On one side, English reigns supreme, with small but noticeable patches of French and German carving out their niches alongside the American juggernaut. On the other side, the vibrant dominance of Indian and South Asian languages paints a vivid picture of Bollywood's reach.
+Two strikingly distinct groups pop right out, don’t they? It’s the ultimate battle of cinematic giants: Hollywood and Bollywood, sweeping nearly every other culture into their orbits. On one side, English reigns supreme, with small but noticeable patches of French and Italian carving out their niches alongside the American juggernaut. On the other side, the vibrant dominance of Indian and South Asian languages paints a vivid picture of Bollywood's reach.
 
 
 Even though the separation may seem pretty intense, let’s take a step back and appreciate the multicultural side of the actors. A significant number of them work across different languages, bridging cultures through their performances. So, here’s the big question: which of the most widely spoken languages do you think go hand in hand the most often?
@@ -429,8 +426,8 @@ To come full circle, let’s use the clusters derived from our career profiles t
 
 Let's see the proportion of actors who have worked in various languages to measure the multiculturalism of the most prolific actors. And the results? They’re a celebration of diversity!
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
-  {% include_relative assets/img/group_distribution_plot.html %}
+<div style="flex: 4; height: 400px;">
+    <iframe src="assets/img/group_distribution_plot.html" style="width:100%; height:100%; border:none;"></iframe>
 </div>
 
 Ah, the victory of multiculturalism! Career actors often expand their horizons by working across multiple cultures. The big loser in this game is Indie cinema, which, despite its high productivity, rarely features prominently in the careers of long-term actors. Meanwhile, English dominates the field, appearing in nearly every actor’s porfolio.
@@ -469,7 +466,7 @@ We've come to the end of our journey into the exciting world of careers and rela
 
 <div align="center">
 
-**I hope you enjoyed reading this, have a Merry Christmas!**
+<b>I hope you enjoyed reading this, have a Merry Christmas!</b>
 
 </div>
 
