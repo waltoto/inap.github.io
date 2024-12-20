@@ -209,12 +209,34 @@ Unfortunately, not all the findings are uplifting. When examining gender dispari
  A **t-test** reveals a stark imbalance: women are severely underrepresented among the most prolific actors. This disparity highlights a systemic issue in the film industry, one that calls for reflection and action.
 
 
+
+But hey, now that we’ve got a good grasp of networks, here’s a new question for you : What do you think ties these actors together ?
+**Language**, my friend ! Language barriers have always played a big role in shaping connections. So, let’s see if our stars are under the same spell. We built a network of co-actors, used a spring layout to arrange it, and colored the nodes by language. Voilà, the result is in!
+Two strikingly distinct groups pop right out, don’t they? It’s the ultimate battle of cinematic giants: Hollywood and Bollywood, sweeping nearly every other culture into their orbits. On one side, English reigns supreme, with small but noticeable patches of French and German carving out their niches alongside the American juggernaut. On the other side, the vibrant dominance of Indian and South Asian languages paints a vivid picture of Bollywood's reach.
+
+
+
+
 Now that we have a good idea of how these superstars are, let’s talk about networking and to be more specific, about director-actor connections !
 
+
+
+
+
+
+
+But hey, now that we’ve got a good grasp of networks, here’s a new question for you : What do you think ties these actors together ?
+**Language**, my friend ! Language barriers have always played a big role in shaping connections. So, let’s see if our stars are under the same spell. We built a network of co-actors, used a spring layout to arrange it, and colored the nodes by language. Voilà, the result is in!
+Two strikingly distinct groups pop right out, don’t they? It’s the ultimate battle of cinematic giants: Hollywood and Bollywood, sweeping nearly every other culture into their orbits. On one side, English reigns supreme, with small but noticeable patches of French and German carving out their niches alongside the American juggernaut. On the other side, the vibrant dominance of Indian and South Asian languages paints a vivid picture of Bollywood's reach.
 
 <div class="nxactorlanguage">
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
+
+Even though the separation may seem pretty intense, let’s take a step back and appreciate the multicultural side of our actors. A significant number of them work across different languages, bridging cultures through their performances. So, here’s the big question: which of the most widely spoken languages do you think go hand in hand the most often?
+
+
+
 
 <div style="margin-top: 20px;">
   <h4 style="color: black; text-align: center;">Do actors who have performed in a particular language also perform in other languages? </h4>
