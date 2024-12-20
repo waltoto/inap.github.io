@@ -213,6 +213,24 @@ Unfortunately, not all the findings are uplifting. When examining gender dispari
 
 ## Actors/Directors relations
 
+What interesting findings and fun facts about the career of actors have we uncovered. But enough talking about actors, they already have enough glory. We only think about them when we think about movies and it is quite natural as we literally see them for 2 hours straight. However, a movie is not only made with people on the screen. A lot of people are working on it in the shadow. Indeed, if a movie is made, it is because someone had an idea for a script and a will to create something. This person is the *director*, the pillar of every movie.
+
+### Successful actor
+
+As you guessed it, this part is oriented to the directors and especially famous directors. The goal will be to determine the relation between *successful actors* and the *directors* and finally to determine different types of directors based on our finding. But before dwelling into famous and successful directors (or maybe bad directors), we must first determine the successful actors. This sounds easy right, when you read « successful actors », I am pretty sure a short list of names popped into your head. Unfortunately, we are data analyst and we need more than just a list of names, we need precise criteria that are valid and can be applied for all actors (boring right).</br>
+Fortunately, the careers of actors were previously analyzed in the previous section, this helped determine the characteristics of actors. Later on, we created a huge network of actors. Their link, based on if they work on the same movie was computed. Finally, specific criteria to determine what is a successful actor were defined and better refined after some analysis, here is the list of them :
+1. Number of films : 12 movies
+2. Centrality : above the average centrality of the network 
+3. Ratings : above the mean ratings of their specific movie genre
+
+<div style="flex: 4; height: 600px;">
+    <iframe src="assets/img/Alex_Plot_Graph_Random.png" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+
+
+
+
 
 <div id="networkingthroughlanguages"></div> 
 
