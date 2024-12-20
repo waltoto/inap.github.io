@@ -262,13 +262,13 @@ Who do you think has played in 9 different languages throughout their career?
   <summary>Click to show the answer</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="assets/img/portrait_woodyallen.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="assets/img/portrait_woodyallen.jpg" alt="Woody Allen" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
-      <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
-      1. Woody Allen is the most feed directors among all directors : total weight of 302  
-	2. Francis Ford Coppola : 162  
-	3. Quentin Tarantino : 76  
-	4. Stanley Kubrick : 58  
+      <strong>Correct Answer:</strong> <strong>c) Woody Allen</strong><br>
+	- Woody Allen is the most feed directors among all directors : total weight of 302  
+	- Francis Ford Coppola : 162  
+	- Quentin Tarantino : 76  
+	- Stanley Kubrick : 58  
     </div>
   </div>
   
