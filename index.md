@@ -288,7 +288,7 @@ The separation bnetween each cluster is also well defined in the plot above. As 
 
 The true difference between cluster 2 and cluster 3 shines in their average ratings, as can be seen from the plot above. The *bad director* are not labelled as bad for no reason, their average rating goes frmo 3 to 5.8, whereas the rest are almost all above 6. Indeed, the rest of the directors linked to successful actors performed well in their movies and acquire high rating. The mean ratings for cluster 3 is even higher than the one for cluster 0 which is impressive. 
 
-<div style="flex: 4; height: 600px;">
+<div style="flex: 4; height: 800px;">
     <iframe src="assets/img/Alex_Plot_NOF_Vs_Career_Start.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
