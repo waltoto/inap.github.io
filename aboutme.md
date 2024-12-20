@@ -17,11 +17,11 @@ We are five students from EPFL (Alexandre, Emile, Pierre, Thibault, and Thomas).
     <p>Emile</p>
   </div>
   <div style="text-align: center;">
-    <img src="/assets/img/pierre.png" alt="Pierre" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/pierre.png" alt="Pierre" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Pierre</p>
   </div>
   <div style="text-align: center;">
-    <img src="/assets/img/thibault.png" alt="Thibault" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/thibault.jpg" alt="Thibault" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Thibault</p>
   </div>
   <div style="text-align: center;">
