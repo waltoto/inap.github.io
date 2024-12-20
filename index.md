@@ -17,9 +17,7 @@ So, let’s ask ourselves: what does it take to land the lead role? A jaw-droppi
 Career analysis, gender inequality, relationships with directors and language barriers are just some of the obstacles on the road to the red carpet. Let's use some data analysis magic to unravel the codes and secrets of the cinematic universe ! 
 
 <div align="center">
-
 **"Ready, Set, Action!" Let the data speak !**
-
 </div>
 
 
