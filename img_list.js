@@ -1,4 +1,3 @@
-
 function changeImage() {
   // Get the value of the dropdown
   var choice = document.getElementById("choice").value;
