@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Charting Careers: The Data Map of Acting Success and Collaborations 
+title: Charting Careers - The Data Map of Acting Success and Collaborations 
 subtitle: ImportNumpyAsPd
 cover-img: /assets/img/fond_final.png
 mathjax: true
