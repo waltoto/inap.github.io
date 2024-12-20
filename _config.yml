@@ -32,6 +32,14 @@ navbar-links:
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
     - The IMDB data: "https://developer.imdb.com/non-commercial-datasets/"
+  Languages:
+    - Chinese: "https://www.deepl.com/en/translator"
+    - German: "https://www.deepl.com/en/translator"
+    - Italian: "https://www.deepl.com/en/translator"
+    - French: "https://www.deepl.com/en/translator"
+    - Moon runes: "https://www.deepl.com/en/translator"
+    - What you want: "https://www.deepl.com/en/translator"
+  
 
 ################
 # --- Logo --- #
