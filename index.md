@@ -187,13 +187,29 @@ Let's delve deeper into the analysis of these clusters! The first thing we're go
   {% include_relative assets/img/Career_Start_agehisto.html %}
 </div>
 
+
+It would seem that the 1m80 shot is wrong and the **Chi2** test is here to confirm it.
+But, on  thing can still be notice, the extreme have it harder … With the exception of super stars representing the community of people with dwarfism, such as XXXX or YYYY, it would seem that extremes are less likely to have a career in the cinema. Would it means it’s more difficult for children and basketball players ?  (we remember you, Yao!).
+For the very big guys, it seems to be the case, but for children, it's a long way off. Look at the age at which careers begin! Starting early even seems to be an advantage when it comes to building a great career, you just have to stay in the business long enough to stay in it as an adult!
+
+
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/Career_lengthhisto.html %}
 </div>
 
+This is confirmed even further by looking at career lengths, confirming once again our assumptions about model clusters: a long career ensures a place among the great actors of history! And look at the career length of the Sunday actors ... more than XXX percent of the group only played one year!
+Unfortunately, not all the findings are uplifting. When examining gender disparities, the results are disheartening. Let's see what the data say: 
+
+
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/gender_camembert_cluster.html %}
 </div>
+
+ A **t-test** reveals a stark imbalance: women are severely underrepresented among the most prolific actors. This disparity highlights a systemic issue in the film industry, one that calls for reflection and action.
+
+
+Now that we have a good idea of how these superstars are, let’s talk about networking and to be more specific, about director-actor connections !
+
 
 <div class="nxactorlanguage">
     <img src="assets/img/network_with_languages.png" style="display: block; margin: 0 auto; width: 80%;"/>
