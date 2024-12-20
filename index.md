@@ -31,6 +31,20 @@ First step: career profiles! By charting the number of films each actor has appe
   <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:300px; border:none;"></iframe>
 </div>
 
+<div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
+  
+  <!-- Conteneur de l'iframe -->
+  <div style="flex: 2; height: 300px;">
+    <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:100%; border:none;"></iframe>
+  </div>
+  
+  <!-- Conteneur de l'image -->
+  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 80%; object-fit: cover; border-radius: 10px;">
+  </div>
+  
+</div>
+
 40 films in one year… that’s impressive! Okay, dubbing is a bit of a cheat ... so here are two career profiles of Hollywood superstars for comparison.
 
 <div style="width: 100%; height: 300px; margin: 0 auto;">
