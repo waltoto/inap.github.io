@@ -73,7 +73,7 @@ First step: career profiles! By charting the number of films each actor has appe
 </div>
 
 <details>
-  <summary>Do you know who is Johnny Depp ?</summary>
+  <summary>More about Uma Thurman ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/film_pulpfiction.jpg" alt="Uma Thurman" style="width: 200px; height: auto; margin-right: 10px;">
@@ -101,13 +101,13 @@ First step: career profiles! By charting the number of films each actor has appe
 </div>
 
 <details>
-  <summary>Do you know who is Mel Blanc ?</summary>
+  <summary>Further details on Samuel L. Jackson </summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/film_MaceWindu.jpeg" alt="Mace Windu" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Mel Blanc</strong><br>
-      Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
+      Samuel L. Jackson is a highly acclaimed actor renowned for his memorable performances in films such as _Star Wars_ and his portrayal of Nick Fury in the Marvel Cinematic Universe. 	With his commanding presence and iconic voice, he is one of the most influential and prolific actors in Hollywood.
     </div>
   </div>
   
