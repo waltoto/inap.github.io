@@ -162,7 +162,7 @@ A little **elbow method** to determine the number of clusters, while keeping the
 That’s nice! It seems that the model has separated the actors into 3 categories. Let’s take a look at their productivity!
 
   <div style="flex: 4; height: 600px;">
-    <iframe src="assets/img/Total_nbr_filmshisto.html" style="width:100%; height:600px; border:none;"></iframe>
+    <iframe src="assets/img/Total_number_of_filmshisto.html" style="width:100%; height:600px; border:none;"></iframe>
   </div>
   
 
