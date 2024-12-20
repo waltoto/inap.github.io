@@ -242,8 +242,7 @@ By creating this graph, a list of directors related to successful actors was don
 # pas oublier le graph
 
 
-Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :  
-Quizz 1 : 
+Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :   
 
 
 #### Quizz:
@@ -266,6 +265,23 @@ Who do you think is the most feed directors among these four directors : Quentin
 	- Francis Ford Coppola : 162  
 	- Quentin Tarantino : 76  
 	- Stanley Kubrick : 58  
+    </div>
+  </div>
+  
+</details>
+
+#### Quizz:
+Which actor has the mode weighted edge ? In other words, which actor has worked the most with the same director ? 
+
+---
+<details>
+  <summary>Click to show the answer</summary>
+  
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="assets/img/portrait_woodyallen2.jpg" alt="Woody Allen" style="width: 200px; height: auto; margin-right: 10px;">
+    <div>
+      <strong>Correct Answer:</strong> <strong>c) Woody Allen</strong><br>
+	Woody Allen played 28 times with the same director, impressive link right ? Well the director in question was...... HIMSELF. He directed and played in its movie 28 times, pretty handy right. 
     </div>
   </div>
   
