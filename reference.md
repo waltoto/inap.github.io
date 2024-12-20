@@ -16,7 +16,7 @@ subtitle: Images
 
 - [Ma Lan Hua (2010)](https://m.imdb.com/fr/title/tt1454020/?ref_=nm_flmg_job_1_cdt_i_14). IMDb.
 
-- [Samuel L. Jackson: "Oscars: Viola Davis, Denzel Washington, and 'I Am Not Your Negro'"](https://www.latimes.com/entertainment/movies/la-et-mn-samuel-l-jackson-oscars-viola-denzel-i-am-not-your-negro-2017-story.html). *Los Angeles Times*.
+- [Samuel L. Jackson](https://www.latimes.com/entertainment/movies/la-et-mn-samuel-l-jackson-oscars-viola-denzel-i-am-not-your-negro-2017-story.html). *Los Angeles Times*.
 
 - [Mace Windu](https://www.starwars.com/databank/mace-windu). StarWars.com.
 
