@@ -31,10 +31,33 @@ First step: career profiles! By charting the number of films each actor has appe
   <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:300px; border:none;"></iframe>
 </div>
 
+40 films in one year… that’s impressive! Okay, dubbing is a bit of a cheat ... so here are two career profiles of Hollywood superstars for comparison.
+
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  <iframe src="assets/img/career_Samuel L. Jackson.html" style="width:100%; height:300px; border:none;"></iframe>
+</div>
+
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
+</div>
+
+One last example for the road, let's take a Sunday actor. In fact, the data set is mainly made up of profiles similar to that of our fourth candidate. We can't call his career a real one, but we have to consider all those people who have simply tried their hand at acting. 
+
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  <iframe src="assets/img/career_Yao Ming.html" style="width:100%; height:300px; border:none;"></iframe>
+</div>
+
+And yes, we're talking about the Chinese NBA basketball player featured in the film YYYY!  This data really does have it all.
+
+As much fun as it is to inspect these career profiles by hand, we're going to use the power of clustering algorithms to classify these career types for us. Make way for KNN!  
+A little elbow method to determine the number of clusters, while keeping the number of clusters low enough to facilitate interpretation... And here are the centroid profiles! 
+
 
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/career_with_3_cluster.html %}
 </div>
+
+
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
 
