@@ -4,7 +4,7 @@ title: About Us
 subtitle: Who are we 
 ---
 
-We are five students from EPFL (Alexandre, Emile, Pierre, Thibault, and Thomas). Our project was part of the 2023 edition of the class “Applied Data Analysis” (CS-401) at EPFL. Find more information about the course: [ADA Website](https://epfl-ada.github.io/teaching/fall2024/cs401/)
+We are five students from EPFL (Alexandre, Emile, Pierre, Thibault, and Thomas). Our project was part of the 2024 edition of the class “Applied Data Analysis” (CS-401) at EPFL. Find more information about the course: [ADA Website](https://epfl-ada.github.io/teaching/fall2024/cs401/)
 
 
 <div style="display: flex; justify-content: space-evenly;">
