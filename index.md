@@ -84,6 +84,8 @@ First step: career profiles! By charting the number of films each actor has appe
   </div>
   
 </details>
+
+
 <div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
   
   <!-- Conteneur de l'iframe -->
