@@ -9,23 +9,23 @@ We are five students from EPFL (Alexandre, Emile, Pierre, Thibault, and Thomas).
 
 <div style="display: flex; justify-content: space-evenly;">
   <div style="text-align: center;">
-    <img src="assets/img/avatar-icon.png" alt="Alexandre" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/alex.png" alt="Alexandre" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Alexandre</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/img/avatar-icon.png" alt="Emile" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/emile.png" alt="Emile" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Emile</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/img/avatar-icon.png" alt="Pierre" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/pierre.png" alt="Pierre" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Pierre</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/img/avatar-icon.png" alt="Thibault" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/thibault.png" alt="Thibault" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Thibault</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/img/avatar-icon.png" alt="Thomas" style="width: 80px; height: 80px; border-radius: 50%;">
+    <img src="assets/img/thomas.png" alt="Thomas" style="width: 80px; height: 80px; border-radius: 50%;">
     <p>Thomas</p>
   </div>
 </div>
