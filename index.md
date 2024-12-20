@@ -34,7 +34,7 @@ First step: career profiles! By charting the number of films each actor has appe
 <div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
   
   <!-- Conteneur de l'iframe -->
-  <div style="flex: 2; height: 300px;">
+  <div style="flex: 4; height: 300px;">
     <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:100%; border:none;"></iframe>
   </div>
   
