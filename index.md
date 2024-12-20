@@ -146,10 +146,6 @@ One last example for the road, let's take a Sunday actor. In fact, the data set 
   
 </details>
 
-<div style="width: 100%; height: 300px; margin: 0 auto;">
-  <iframe src="assets/img/career_Yao Ming.html" style="width:100%; height:300px; border:none;"></iframe>
-</div>
-
 And yes, we're talking about the Chinese NBA basketball player featured in the film YYYY!  This data really does have it all.
 
 As much fun as it is to inspect these career profiles by hand, we're going to use the power of clustering algorithms to classify these career types for us. Make way for KNN!  
@@ -160,31 +156,26 @@ A little elbow method to determine the number of clusters, while keeping the num
   {% include_relative assets/img/career_with_3_cluster.html %}
 </div>
 
+That's nice! It seems that the model has separated the players into 3 categories. Let's take a look at their productivity!
 
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-
-  <div>
-    <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
-  </div>
-
-  <div>
-    <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:300px; border:none;"></iframe>
-  </div>
-
-  <div>
-    <iframe src="assets/img/career_Samuel L. Jackson.html" style="width:100%; height:300px; border:none;"></iframe>
-  </div>
-
-  <div>
-    <iframe src="assets/img/career_Yao Ming.html" style="width:100%; height:300px; border:none;"></iframe>
-  </div>
-
-</div>
 
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/Total_nbr_filmshisto.html %}
 </div>
+
+Just as I thought. The model has separated our actors into 3 different career types:
+
+1.	Cluster 0: The Sunday Actors
+o	These individuals have little or no career in acting, often appearing in just one or two projects. Over 50,000 actors (percentage) in our dataset fall into this category, accounting for the vast majority.
+2.	Cluster 1: The Superstars
+o	This elite group of just over 200 actors (percentage) represents the pinnacle of the industry. They boast prolific filmographies and careers spanning decades. “info sur la longueur moyenne et le nombre de films moyen »
+3.	Cluster 2: The Steady Professionals
+o	These actors enjoy respectable, long-lasting careers. They may not have reached superstardom, but their contributions are significant. This group comprises around 2,000 actors. (percentage) “info sur la longueur moyenne et le nombre de films moyen »
+
+
+Let's delve deeper into the analysis of these clusters! The first thing we're going to control is the famous cliché: all superstar are good-looking in their mid-thirties and 1.80 meters tall. We can't control their appearance here, but let's look at their height and age distribution at the start of their careers.
+
 
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/actor_heighthisto.html %}
