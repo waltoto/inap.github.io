@@ -41,9 +41,8 @@ First step: career profiles! By charting the number of films each actor has appe
   
 </div>
 
-#### Reveal the Answer  
 <details>
-  <summary>Click to show the answer</summary>
+  <summary>Do you know who is Mel Blanc ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/bugs_bunny.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
