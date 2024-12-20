@@ -260,7 +260,7 @@ Who do you think is the most feed directors among these four directors : Quentin
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/portrait_woodyallen.jpg" alt="Woody Allen" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
-      <strong>Correct Answer:</strong> <strong>c) Woody Allen</strong><br>
+      <strong>Woody Allen</strong><br>
 	- Woody Allen is the most feed directors among all directors : total weight of 302  
 	- Francis Ford Coppola : 162  
 	- Quentin Tarantino : 76  
@@ -280,7 +280,7 @@ Which actor has the mode weighted edge ? In other words, which actor has worked 
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/portrait_woodyallen2.jpg" alt="Woody Allen" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
-      <strong>Correct Answer:</strong> <strong>c) Woody Allen</strong><br>
+      <strong>Again, Woody Allen</strong><br>
 	Woody Allen played 28 times with the same director, impressive link right ? Well the director in question was...... HIMSELF. He directed and played in its movie 28 times, pretty handy right. 
     </div>
   </div>
