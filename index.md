@@ -242,13 +242,12 @@ By creating this graph, a list of directors related to successful actors was don
 # pas oublier le graph
 
 
-Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :</br>
-Quizz 1 : Who do you think is the most feed directors among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
+Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :  
+Quizz 1 : 
 
 
-## Quizz 1 : Who do you think is the most high valued director among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
-
-Who do you think has played in 9 different languages throughout their career?
+## Quizz 1 
+Who do you think is the most feed directors among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
 
 -  **a)** Quentin Tarantino  
 -  **b)** Stanley Kubrick  
@@ -256,8 +255,6 @@ Who do you think has played in 9 different languages throughout their career?
 -  **d)** Woody Allen  
 
 ---
-
-#### Reveal the Answer  
 <details>
   <summary>Click to show the answer</summary>
   
