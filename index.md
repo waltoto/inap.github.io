@@ -40,7 +40,7 @@ First step: career profiles! By charting the number of films each actor has appe
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 80%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
@@ -55,7 +55,7 @@ First step: career profiles! By charting the number of films each actor has appe
   <!-- Conteneur du portrait -->
   <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
     <div style="width: 100px; height: 100px; overflow: hidden; border-radius: 10px; background: #ccc;">
-      <img src="assets/img/portrait_Mel_Blanc" alt="Mel Blanc Portrait" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
   </div>
   
