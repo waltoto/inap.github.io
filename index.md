@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Evolution of the network of actors in the film industry through time 
+title: Charting Careers: The Data Map of Acting Success and Collaborations 
 subtitle: ImportNumpyAsPd
 cover-img: /assets/img/fond_final.png
 mathjax: true
@@ -23,7 +23,7 @@ Career analysis, gender inequality, relationships with directors and language ba
 </div>
 
 <div style="text-align: center;">
-  <img src="/assets/img/silence_gif.gif" alt="silence">
+  <img src="assets/img/silence_gif.gif" alt="silence">
 </div>
 
 ![silence](/assets/img/silence_gif.gif)
@@ -478,7 +478,7 @@ We've come to the end of our journey into the exciting world of careers and rela
 ![fin](/assets/img/fin_gif.gif)
 
 <div style="text-align: center;">
-  <img src="/assets/img/fin_gif.gif" alt="fin">
+  <img src="assets/img/fin_gif.gif" alt="fin">
 </div>
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
