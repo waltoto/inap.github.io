@@ -180,19 +180,13 @@ Just as I thought. The model has separated the actors into 3 different career ty
 
 Now, let’s dig deeper into these clusters. First question: is there truth to the stereotype that superstars are all good-looking, in their mid-thirties, and 1.80 meters tall? We can’t measure attractiveness here, but let’s check out height and age distributions at the start of their careers.
 
- <div style="display: flex; justify-content: space-between; gap: 5px; height: 600px;">
-  <!-- Premier graphe -->
-  <div style="flex: 1; height: 100%;">
-    <iframe src="assets/img/actor_heighthisto.html" style="width: 100%; height: 100%; border: none;"></iframe>
-  </div>
-  <!-- Deuxième graphe -->
-  <div style="flex: 1; height: 100%;">
-    <iframe src="assets/img/actor_heighthisto.html" style="width: 100%; height: 100%; border: none;"></iframe>
-  </div>
-</div>
 
- <div style="flex: 4; height: 300px;">
+ <div style="flex: 4; height: 400px;">
     <iframe src="assets/img/actor_heighthisto.html" style="width:100%; height:100%; border:none;"></iframe>
+  </div>
+
+  <div style="flex: 4; height: 400px;">
+    <iframe src="assets/img/Career_Start_agehisto.html" style="width:100%; height:100%; border:none;"></iframe>
   </div>
 
 The 1.80m cliché? Busted. A **Student's t-test** test backs it up: extremes in height are less common among actors. While there are exceptions, like superstars representing communities with dwarfism (e.g., Kenny Baker and Billy Barty), taller individuals—like basketball players (Yao, we see you!)—do seem to face challenges.
