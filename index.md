@@ -32,18 +32,18 @@ First step: career profiles! By charting the number of films each actor has appe
   
   <!-- Conteneur de l'iframe -->
   <div style="flex: 4; height: 300px;">
-    <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:100%; border:none;"></iframe>
+    <iframe src="assets/img/career_.html" style="width:100%; height:100%; border:none;"></iframe>
   </div>
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/Mel_Blanc_portrait.jpg" alt=" Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
 
 <details>
-  <summary>Do you know who is Mel Blanc ?</summary>
+  <summary>Do you know who is  ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
@@ -96,7 +96,7 @@ First step: career profiles! By charting the number of films each actor has appe
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/portrait_sljackson.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/portrait_sljackson.jpg" alt="Samuel L. Jackson Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
@@ -135,7 +135,7 @@ One last example for the road, let's take a Weekend actor. In fact, the data set
 </div>
 
 <details>
-  <summary>Do you know who is Mel Blanc ?</summary>
+  <summary>Do you know who is Yao Ming ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/film_yao.jpg" alt="Yao Ming in the year of yao" style="width: 200px; height: auto; margin-right: 10px;">
@@ -244,6 +244,35 @@ By creating this graph, a list of directors related to successful actors was don
 
 Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :</br>
 Quizz 1 : Who do you think is the most feed directors among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
+
+
+## Quizz 1 : Who do you think is the most high valued director among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
+
+Who do you think has played in 9 different languages throughout their career?
+
+-  **a)** Quentin Tarantino  
+-  **b)** Stanley Kubrick  
+-  **c)** Francis Ford Coppola  
+-  **d)** Woody Allen  
+
+---
+
+#### Reveal the Answer  
+<details>
+  <summary>Click to show the answer</summary>
+  
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="assets/img/portrait_woodyallen.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
+    <div>
+      <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
+      1. Woody Allen is the most feed directors among all directors : total weight of 302  
+	2. Francis Ford Coppola : 162  
+	3. Quentin Tarantino : 76  
+	4. Stanley Kubrick : 58  
+    </div>
+  </div>
+  
+</details>
 
 ### Type of directors
 
