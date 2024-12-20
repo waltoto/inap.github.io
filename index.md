@@ -262,7 +262,38 @@ After applying the Kmeans algorithm, 4 different types were determined. Let’s 
     <iframe src="assets/img/Alex_Plot_Camembert_Kmeans.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
+Were you able to guess to wich category belongs each of our previous directors ?
+- Cluster 2 - *"Bad" directors* is Ernest Pintoff
+- Cluster 3 - *"Few movies but high ratings" Directors* is Takeshi Kitano
+- Cluster 0 - *"Lot movies and good ratings" Directors* is Ingmar Bergman
+- Cluster 1 - *"Lot movies and good ratings" Directors + Successful Actors* is Steven Spielberg
 
+We can now analyse each different with the help of beautiful graphs to better comprehend their characteristics.
+
+<div style="flex: 4; height: 600px;">
+    <iframe src="assets/img/Alex_Plot_NOA_Vs_Sum_Weight_Director_Cluster.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+As expcted as we rise throught the quality of directors, the directors gain in total weight as well as in number of edge (successful actors). As can be seen, the bad directors and the one with a few movies are similar as they both have less weight and less edge. They are linked in this aspect and resesmbled.
+
+<div style="flex: 4; height: 600px;">
+    <iframe src="assets/img/Alex_Plot_NOF_Vs_Sum_Weight.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+The separation bnetween each cluster is also well defined in the plot above. As expected, after a certain number of movie or weight, you are directly labelled in cluster 0 or 1. Neverthelss, the number of movie is not a hard critera for being into cluster 1, it is ncessary that you encounter a lot of successful actors in your career. Once more, cluster 2 and 3 overlapped due to their similarities in their number of films or total weight.
+
+<div style="flex: 4; height: 600px;">
+    <iframe src="assets/img/Alex_Plot_Mean_Rating_Director_Cluster.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+The true difference between cluster 2 and cluster 3 shines in their average ratings, as can be seen from the plot above. The *bad director* are not labelled as bad for no reason, their average rating goes frmo 3 to 5.8, whereas the rest are almost all above 6. Indeed, the rest of the directors linked to successful actors performed well in their movies and acquire high rating. The mean ratings for cluster 3 is even higher than the one for cluster 0 which is impressive. 
+
+<div style="flex: 4; height: 600px;">
+    <iframe src="assets/img/Alex_Plot_NOF_Vs_Career_Start.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
+
+Finally, by comparing the number of films directed and the career startig age, it seems that the best time time to begin ones career is between 20 and 35 year old. However, this will not impact your success in your career. Once more, it can be noticed that cluster 2 and 3 seems to have less films registered due to shorter career for the bad directors or few movies for the cluster 3.</br>
+Moreover, this plot motivate once more the linked with the number of movies performed by each cluster. The bad director did not do a lot of movies, potentially due to their bad performance.  Nonetheless, some directors
 
 <div id="networkingthroughlanguages"></div> 
 
