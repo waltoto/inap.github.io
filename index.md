@@ -67,7 +67,7 @@ First step: career profiles! By charting the number of films each actor has appe
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/portrait_johnnydepp.jpg" alt="Johnny Depp Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/portrait_UmaThurmann.jpg" alt="Uma Thurman Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
@@ -76,10 +76,10 @@ First step: career profiles! By charting the number of films each actor has appe
   <summary>Do you know who is Johnny Depp ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="assets/img/film_jacksparrow.jpeg" alt="Jack Sparrow" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="assets/img/film_pulpfiction.jpeg" alt="Uma Thurman" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
-       <strong> Mel Blanc</strong><br>
-      Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
+       <strong> Uma Thurman</strong><br>
+      Best known for her roles in Quentin Tarantino's Pulp Fiction and the Kill Bill series, Uma Thurman is an acclaimed American actress
     </div>
   </div>
   
