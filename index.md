@@ -157,8 +157,9 @@ A little elbow method to determine the number of clusters, while keeping the num
 </div>
 
 
-That's nice! It seems that the model has separated the players into 3 categories. Let's take a look at their productivity!
-
+That’s nice! It seems that the model has separated the players into 3 categories. Let’s take a look at their productivity!
+That’s nice! It seems that the model has separated the players into 3 categories. Let’s take a look at their productivity!
+That’s nice! It seems that the model has separated the players into 3 categories. Let’s take a look at their productivity!
 
 
 <div style="width: 100%; height: 600px; margin: 0 auto;">
