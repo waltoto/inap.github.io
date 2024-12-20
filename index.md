@@ -192,7 +192,7 @@ Now, let’s dig deeper into these clusters. First question: is there truth to t
 </div>
 
  <div style="flex: 4; height: 300px;">
-    <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:100%; border:none;"></iframe>
+    <iframe src="assets/img/actor_heighthisto.html" style="width:100%; height:100%; border:none;"></iframe>
   </div>
 
 The 1.80m cliché? Busted. A **Student's t-test** test backs it up: extremes in height are less common among actors. While there are exceptions, like superstars representing communities with dwarfism (e.g., Kenny Baker and Billy Barty), taller individuals—like basketball players (Yao, we see you!)—do seem to face challenges.
