@@ -41,6 +41,20 @@ First step: career profiles! By charting the number of films each actor has appe
   
 </div>
 
+#### Reveal the Answer  
+<details>
+  <summary>Click to show the answer</summary>
+  
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="assets/img/bugs_bunny.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
+    <div>
+      <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
+      Fun fact: Jackie Chan has acted in multiple languages, including Cantonese, Mandarin, English, Korean, Japanese, and more!
+    </div>
+  </div>
+  
+</details>
+
 
 
 40 films in one year… that’s impressive! Okay, dubbing is a bit of a cheat ... so here are two career profiles of Hollywood superstars for comparison.
