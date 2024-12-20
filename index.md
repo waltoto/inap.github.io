@@ -22,6 +22,8 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 </div>
 
+![silence](/assets/img/silence_gif.gif)
+
 <div id="actornetwork"></div> 
 
 ## Actor Network: Career
@@ -468,6 +470,8 @@ We've come to the end of our journey into the exciting world of careers and rela
 **I hope you enjoyed reading this, have a Merry Christmas!**
 
 </div>
+
+![fin](/assets/img/fin_gif.gif)
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
