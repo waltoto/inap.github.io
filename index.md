@@ -223,8 +223,9 @@ Fortunately, the careers of actors were previously analyzed in the previous sect
 2. Centrality : above the average centrality of the network 
 3. Ratings : above the mean ratings of their specific movie genre
 
-<div style="flex: 4; height: 600px;">
-    <iframe src="assets/img/Alex_Plot_Graph_Random.png" style="width:100%; height:600px; border:none;"></iframe>
+
+<div class="nxactorlanguage">
+    <img src="assets/img/Alex_Plot_Graph_Randoms.png" style="display: block; margin: 0 auto; width: 80%;"/>
 </div>
 
 
