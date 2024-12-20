@@ -2,7 +2,7 @@
 layout: home
 title: Evolution of the network of actors in the film industry through time 
 subtitle: ImportNumpyAsPd
-cover-img: /assets/img/logo_actor_director_2.jpg
+cover-img: /assets/img/fond_final.png
 mathjax: true
 ---
 
