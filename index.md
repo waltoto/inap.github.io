@@ -152,7 +152,7 @@ As much fun as it is to inspect these career profiles by hand, we're going to us
 A little elbow method to determine the number of clusters, while keeping the number of clusters low enough to facilitate interpretation... And here are the centroid profiles! 
 
 
-  <div style="flex: 4; height: 300px;">
+  <div style="flex: 4; height: 600px;">
     <iframe src="assets/img/career_with_3_cluster.html" style="width:100%; height:600px; border:none;"></iframe>
   </div>
 
