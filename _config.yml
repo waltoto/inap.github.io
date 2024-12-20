@@ -27,7 +27,7 @@ navbar-links:
     - Networking through languages: "#networkingthroughlanguages"
     - Conclusion: "#conclusion"
     
-  Reference: "reference"  
+  References: "reference"  
   About Us: "aboutme"
   Resources:
     - The CMU data: "https://www.cs.cmu.edu/~ark/personas/"
