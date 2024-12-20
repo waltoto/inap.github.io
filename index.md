@@ -47,8 +47,8 @@ First step: career profiles! By charting the number of films each actor has appe
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/bugs_bunny.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
-      <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
-      Fun fact: Jackie Chan has acted in multiple languages, including Cantonese, Mandarin, English, Korean, Japanese, and more!
+      <strong>Correct Answer:</strong> <strong>c) Mel Blanc</strong><br>
+      **Mel Blanc** was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
     </div>
   </div>
   
