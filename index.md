@@ -152,7 +152,7 @@ As much fun as it is to inspect these career profiles by hand, we're going to us
 A little elbow method to determine the number of clusters, while keeping the number of clusters low enough to facilitate interpretation... And here are the centroid profiles! 
 
 
-<div style="width: 100%; height: 600px; margin; margin: 0 auto; clip-path: inset(0 0 300px 0);">
+<div style="width: 100%; height: 600px; margin; margin: 0 auto; clip-path: inset(0 0 0px 0);">
   {% include_relative assets/img/career_with_3_cluster.html %}
 </div>
 
@@ -160,7 +160,7 @@ A little elbow method to determine the number of clusters, while keeping the num
 That’s nice! It seems that the model has separated the players into 3 categories. Let’s take a look at their productivity!
 
 
-<div style="width: 100%; height: 600px; margin: 0 auto; clip-path: inset(0 0 300px 0);">
+<div style="width: 100%; height: 600px; margin: 0 auto; clip-path: inset(0 0 0px 0);">
   {% include_relative assets/img/Total_nbr_filmshisto.html %}
 </div>
 
