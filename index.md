@@ -47,7 +47,7 @@ First step: career profiles! By charting the number of films each actor has appe
   <div style="display: flex; align-items: center; margin-top: 10px;">
     <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
-       <strong>c) Mel Blanc</strong><br>
+       <strong> Mel Blanc</strong><br>
       Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
     </div>
   </div>
