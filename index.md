@@ -228,8 +228,39 @@ Fortunately, the careers of actors were previously analyzed in the previous sect
     <img src="assets/img/Alex_Plot_Graph_Random.png" style="display: block; margin: 0 auto; width: 100%;"/>
 </div>
 
+### Bipartite directed graph
+
+After applying this list of criteria to the original list of actors, approximately 2300 actors were labelled as successful. This represent less than 2% of the original number of actors (yes, not everyone is successful, sorry you had to hear that here). We can finally start playing with the directors of films. In order to determine the relevant directors with respect to these actors, a « directed bipartite graph between actors and directors » was computed. That’s a lot of complicated words for something really simple, here is the explanation : 
+- Structure: 
+    - Nodes represent actors and directors.  
+    - Directed edges flow from actors to directors.  
+    - An edge exists if an actor and a director have worked together.  
+- Edge Weight: Represents the number of films they collaborated on.  
+- Director Node Value: The sum of edge weights directed to each director.  
+
+By creating this graph, a list of directors related to successful actors was done. As an image is worth a 1000 words, here are 4000 words :
 
 
+# pas oublier le graph
+
+
+Now that you have understand and visualize the graph, and before dwelling even more into the data, let’s do a little quizz interlude :</br>
+Quizz 1 : Who do you think is the most feed directors among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
+
+### Type of directors
+
+
+We choose to show the directed graph of this four directors for specific reasons (not just only because we did a df.sample(), we are professional). Like actors, directors have different careers and behave differently. Indeed, this can be easily noticed by the difference in the four previous graph. Hence, an interesting thing to do is to categorize and classify type of directors. You guessed it, we are going to do clustering once more. This brings to the next step of our director’s journey : Kmeans. 
+After applying the Kmeans algorithm, 4 different types were determined. Let’s dive into it :
+
+- Cluster 2 - *Bad directors* : The directors in this cluster are not good at what they do. They have all the red flags : few movies, low occurrences of working with a successful actor and a low ratings of theirs movie (below average). 
+- Cluster 3 - *"Few movies but high ratings" Directors* : These directors have worked with a few successful actors and they have directed not that many movie.  However, each of theirs movie is a hit and has a high rating.
+- Cluster 0 - *"Lot movies and good ratings" Directors* : These directors had prolific careers with and without successful actors. They made a lot of movies and have an overall high ratings. 
+- Cluster 1 - *"Lot movies and good ratings" Directors + Successful Actors* : These one are « la crème de la crème ». They have made a lot of movies with high rating like the directors in the previous clusters but they have directed a lot of successful actors. They are the one who shaped cinema. 
+
+<div style="flex: 4; height: 600px;">
+    <iframe src="assets/img/Alex_Plot_Camembert_Kmeans.html" style="width:100%; height:600px; border:none;"></iframe>
+</div>
 
 
 
