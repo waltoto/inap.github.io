@@ -22,11 +22,10 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 </div>
 
+
 <div style="text-align: center;">
   <img src="assets/img/silence_gif.gif" alt="silence">
 </div>
-
-![silence](/assets/img/silence_gif.gif)
 
 <div id="actornetwork"></div> 
 
@@ -252,7 +251,7 @@ By creating this graph, a list of directors related to successful actors was don
     <label for="choice">Select a Director:</label>
     <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
       <option value="alex_def2">Ingmar Bergman</option>
-      <option value="Alex_def4">Steven Spielberg</option>
+      <option value="Alex_def4">Francis Ford Coppola</option>
       <option value="Alex_def1">Ernest Pintoff</option>
       <option value="Alex_def3">Takeshi Kitano</option>
     </select>
@@ -474,8 +473,6 @@ We've come to the end of our journey into the exciting world of careers and rela
 **I hope you enjoyed reading this, have a Merry Christmas!**
 
 </div>
-
-![fin](/assets/img/fin_gif.gif)
 
 <div style="text-align: center;">
   <img src="assets/img/fin_gif.gif" alt="fin">
