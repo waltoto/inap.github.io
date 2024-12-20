@@ -123,7 +123,7 @@ One last example for the road, let's take a Sunday actor. In fact, the data set 
   
   <!-- Conteneur de l'iframe -->
   <div style="flex: 4; height: 300px;">
-    <iframe src="assets/img/career_Yao Ming.html"" style="width:100%; height:100%; border:none;"></iframe>
+    <iframe src="assets/img/career_Yao Ming.html" style="width:100%; height:300px; border:none;"></iframe>
   </div>
   
   <!-- Conteneur de l'image -->
@@ -137,7 +137,7 @@ One last example for the road, let's take a Sunday actor. In fact, the data set 
   <summary>Do you know who is Mel Blanc ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="assets/img/film_the_year_of_yao.jpg" alt="Yao Ming in the year of yao" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="assets/img/film_the_year_of_the_yao.jpg" alt="Yao Ming in the year of yao" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Mel Blanc</strong><br>
       Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
