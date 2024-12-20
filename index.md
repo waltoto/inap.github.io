@@ -246,7 +246,7 @@ Now that you have understand and visualize the graph, and before dwelling even m
 Quizz 1 : 
 
 
-## Quizz 1 
+#### Quizz:
 Who do you think is the most feed directors among these four directors : Quentin Tarantino, Stanley Kubrick, Francis Ford Coppola, Woody Allen ? What do you think is the ranking ?
 
 -  **a)** Quentin Tarantino  
@@ -421,7 +421,7 @@ We've come to the end of our journey into the exciting world of careers and rela
 
 <div align="center">
 
-**I hope you enjoyed reading this, have a Merry Christmas and long live ADA!**
+**I hope you enjoyed reading this, have a Merry Christmas!**
 
 </div>
 
