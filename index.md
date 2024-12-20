@@ -156,6 +156,7 @@ A little elbow method to determine the number of clusters, while keeping the num
   {% include_relative assets/img/career_with_3_cluster.html %}
 </div>
 
+
 That's nice! It seems that the model has separated the players into 3 categories. Let's take a look at their productivity!
 
 
