@@ -67,16 +67,16 @@ First step: career profiles! By charting the number of films each actor has appe
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/portrait_johnnydepp.jpg" alt="Johnny Depp Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
 
 <details>
-  <summary>Do you know who is Mel Blanc ?</summary>
+  <summary>Do you know who is Johnny Depp ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="assets/img/film_jacksparrow.jpeg" alt="Jack Sparrow" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Mel Blanc</strong><br>
       Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
@@ -95,7 +95,7 @@ First step: career profiles! By charting the number of films each actor has appe
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/portrait_sljackson.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
@@ -104,7 +104,7 @@ First step: career profiles! By charting the number of films each actor has appe
   <summary>Do you know who is Mel Blanc ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="assets/img/film_MaceWindu.jpeg" alt="Mace Windu" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Mel Blanc</strong><br>
       Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
@@ -128,7 +128,7 @@ One last example for the road, let's take a Sunday actor. In fact, the data set 
   
   <!-- Conteneur de l'image -->
   <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
-    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+    <img src="assets/img/portrait_yao_ming.jpg" alt="Portrait Yao Ming" style="height: 60%; object-fit: cover; border-radius: 10px;">
   </div>
   
 </div>
@@ -137,7 +137,7 @@ One last example for the road, let's take a Sunday actor. In fact, the data set 
   <summary>Do you know who is Mel Blanc ?</summary>
   
   <div style="display: flex; align-items: center; margin-top: 10px;">
-    <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="assets/img/film_the_year_of_yao.jpg" alt="Yao Ming in the year of yao" style="width: 200px; height: auto; margin-right: 10px;">
     <div>
        <strong> Mel Blanc</strong><br>
       Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
