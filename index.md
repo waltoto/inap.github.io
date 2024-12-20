@@ -258,7 +258,7 @@ After applying the Kmeans algorithm, 4 different types were determined. Let’s 
 - Cluster 0 - *"Lot movies and good ratings" Directors* : These directors had prolific careers with and without successful actors. They made a lot of movies and have an overall high ratings. 
 - Cluster 1 - *"Lot movies and good ratings" Directors + Successful Actors* : These one are « la crème de la crème ». They have made a lot of movies with high rating like the directors in the previous clusters but they have directed a lot of successful actors. They are the one who shaped cinema. 
 
-<div style="flex: 4; height: 600px;">
+<div style="flex: 4; height: 700px;">
     <iframe src="assets/img/Alex_Plot_Camembert_Kmeans.html" style="width:100%; height:600px; border:none;"></iframe>
 </div>
 
