@@ -58,13 +58,58 @@ First step: career profiles! By charting the number of films each actor has appe
 
 40 films in one year… that’s impressive! Okay, dubbing is a bit of a cheat ... so here are two career profiles of Hollywood superstars for comparison.
 
-<div style="width: 100%; height: 300px; margin: 0 auto;">
-  <iframe src="assets/img/career_Samuel L. Jackson.html" style="width:100%; height:300px; border:none;"></iframe>
+<div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
+  
+  <!-- Conteneur de l'iframe -->
+  <div style="flex: 4; height: 300px;">
+    <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:100%; border:none;"></iframe>
+  </div>
+  
+  <!-- Conteneur de l'image -->
+  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+  </div>
+  
 </div>
 
-<div style="width: 100%; height: 300px; margin: 0 auto;">
-  <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
+<details>
+  <summary>Do you know who is Mel Blanc ?</summary>
+  
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
+    <div>
+       <strong> Mel Blanc</strong><br>
+      Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
+    </div>
+  </div>
+  
+</details>
+<div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
+  
+  <!-- Conteneur de l'iframe -->
+  <div style="flex: 4; height: 300px;">
+    <iframe src="assets/img/career_Saluel L. Jackson.html" style="width:100%; height:100%; border:none;"></iframe>
+  </div>
+  
+  <!-- Conteneur de l'image -->
+  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+    <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="height: 60%; object-fit: cover; border-radius: 10px;">
+  </div>
+  
 </div>
+
+<details>
+  <summary>More about Samuel L. Jackson ?</summary>
+  
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="assets/img/bugs_bunny.jpg" alt="Mel Blanc" style="width: 200px; height: auto; margin-right: 10px;">
+    <div>
+       <strong> Mel Blanc</strong><br>
+      Mel Blanc was an American voice actor known as "The Man of a Thousand Voices," famous for voicing Bugs Bunny, Daffy Duck, and other iconic Looney Tunes characters.
+    </div>
+  </div>
+  
+</details>
 
 One last example for the road, let's take a Sunday actor. In fact, the data set is mainly made up of profiles similar to that of our fourth candidate. We can't call his career a real one, but we have to consider all those people who have simply tried their hand at acting. 
 
