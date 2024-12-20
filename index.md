@@ -268,9 +268,29 @@ Even though the separation may seem pretty intense, let’s take a step back and
 </div>
 <script src="img_list.js"></script>
 
+The results are telling: while European languages are often paired, multiculturalism is not the main concern of Hollywood and Bollywood. Over XX% of actors that played in English stick exclusively to English with only 2% of Indie speaker. On the other hand, more than XX% of Indian actors primarily work in Hindi or English, reflecting the clustering of Bollywood and the influence of globalization. 
+English really comes into its own as the international language here. With an impressive XX% of all films available in Shakespeare's language, English has become the undeniable lingua franca of cinema. It acts as a bridge between cultures, enabling actors and audiences from all over the world to connect.
+
+To come full circle, let’s use the clusters derived from our career profiles to explore the importance of establishing oneself as an international actor. First, we’ll divide the dataset into two groups:
+
+- *The One-Time Performers* (Cluster 0)
+
+- *Career Actors* (Clusters 1 and 2)
+
+Next, we calculate the proportion of actors who have worked in various languages to measure the multiculturalism of the most prolific actors. And the results? They’re a celebration of diversity!
+
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/group_distribution_plot.html %}
 </div>
+
+Ah, the victory of multiculturalism! Career actors often expand their horizons by working across multiple cultures. The big loser in this game is Indie cinema, which, despite its high productivity, rarely features prominently in the careers of long-term actors. Meanwhile, English dominates the field, appearing in nearly every actor’s CV (XX%).
+
+#### Conclusion
+
+We've come to the end of our journey into the exciting world of careers and relationships in the film industry. Harnessing the power of K-means clustering, t-tests and chi2, directed graphs and network analysis, the data revealed some fascinating insights. First of all, you don't need to be 1m80 tall for your career to take off. Instead, learn other languages and try to export yourself abroad. (Don't start with English) Ah, and the fight for gender equality in cinema still has a lot of work to do... and just because you work with successful people doesn't mean you're a successful person. 
+I hope you enjoyed reading this, have a Merry Christmas and long live ADA!
+
+
 
 
 
