@@ -22,6 +22,10 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 </div>
 
+<div style="text-align: center;">
+  <img src="/assets/img/silence_gif.gif" alt="silence">
+</div>
+
 ![silence](/assets/img/silence_gif.gif)
 
 <div id="actornetwork"></div> 
@@ -472,6 +476,10 @@ We've come to the end of our journey into the exciting world of careers and rela
 </div>
 
 ![fin](/assets/img/fin_gif.gif)
+
+<div style="text-align: center;">
+  <img src="/assets/img/fin_gif.gif" alt="fin">
+</div>
 
 [CMU]: https://www.cs.cmu.edu/~ark/personas/
 [IMDB]: https://developer.imdb.com/non-commercial-datasets/
