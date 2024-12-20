@@ -264,7 +264,7 @@ By creating this graph, a list of directors related to successful actors was don
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #f9f9f9; /* Fond légèrement gris */
+      background-color: #ffffff; /* Fond légèrement gris */
     ">
     <p style="color: gray;">Select a director !</p>
   </div>
