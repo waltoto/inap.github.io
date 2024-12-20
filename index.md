@@ -21,6 +21,7 @@ Career analysis, gender inequality, relationships with directors and language ba
 </div>
 
 
+  
 <div style="text-align: center;">
   <img src="assets/img/silence_gif.gif" alt="silence">
 </div>
