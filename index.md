@@ -27,10 +27,6 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 First step: career profiles! By charting the number of films each actor has appeared in every year since their career began, we’ve created career profiles. These profiles capture the ebbs and flows of their productivity, revealing fascinating insights. This should enable us to differentiate between the Sunday actor who made a film with his cousin and the Hollywood star. They take very different shapes and magnitude, highlighting some incredible careers. Let’s take a closer look at some of these extraordinary journey.  Who do you think is the most prolific actor of the decade?
 
-<div style="width: 100%; height: 300px; margin: 0 auto;">
-  <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:300px; border:none;"></iframe>
-</div>
-
 <div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
   
   <!-- Conteneur de l'iframe -->
@@ -45,21 +41,18 @@ First step: career profiles! By charting the number of films each actor has appe
   
 </div>
 
-<div style="display: flex; align-items: center; gap: 10px; width: 100%; margin: 0 auto;">
+<details>
+  <summary>Want to know more about Mel Blanc</summary>
   
-  <!-- Conteneur de l'iframe -->
-  <div style="flex: 4; height: 300px;">
-    <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:100%; border:none;"></iframe>
-  </div>
-  
-  <!-- Conteneur du portrait -->
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <div style="width: 100px; height: 100px; overflow: hidden; border-radius: 10px; background: #ccc;">
-      <img src="assets/img/Mel_Blanc_portrait.jpg" alt="Mel Blanc Portrait" style="width: 100%; height: 100%; object-fit: cover;">
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <img src="assets/img/jackie_chan.jpg" alt="Jackie Chan" style="width: 200px; height: auto; margin-right: 10px;">
+    <div>
+      <strong>Correct Answer:</strong> <strong>c) Jackie Chan</strong><br>
+      Fun fact: Jackie Chan has acted in multiple languages, including Cantonese, Mandarin, English, Korean, Japanese, and more!
     </div>
   </div>
   
-</div>
+</details>
 
 40 films in one year… that’s impressive! Okay, dubbing is a bit of a cheat ... so here are two career profiles of Hollywood superstars for comparison.
 
