@@ -25,6 +25,13 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 ## Actor Network: Career
 
+First step: career profiles! By charting the number of films each actor has appeared in every year since their career began, we’ve created career profiles. These profiles capture the ebbs and flows of their productivity, revealing fascinating insights. This should enable us to differentiate between the Sunday actor who made a film with his cousin and the Hollywood star. They take very different shapes and magnitude, highlighting some incredible careers. Let’s take a closer look at some of these extraordinary journey.  Who do you think is the most prolific actor of the decade?
+
+<div style="width: 100%; height: 600px; margin: 0 auto;">
+  {% include_relative assets/img/career_Mel Blanc.html %}
+</div>
+
+
 <div style="width: 100%; height: 600px; margin: 0 auto;">
   {% include_relative assets/img/career_with_3_cluster.html %}
 </div>
