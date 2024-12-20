@@ -27,23 +27,23 @@ Career analysis, gender inequality, relationships with directors and language ba
 
 First step: career profiles! By charting the number of films each actor has appeared in every year since their career began, we’ve created career profiles. These profiles capture the ebbs and flows of their productivity, revealing fascinating insights. This should enable us to differentiate between the Sunday actor who made a film with his cousin and the Hollywood star. They take very different shapes and magnitude, highlighting some incredible careers. Let’s take a closer look at some of these extraordinary journey.  Who do you think is the most prolific actor of the decade?
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
+<div style="width: 100%; height: 300px; margin: 0 auto;">
   <iframe src="assets/img/career_Mel Blanc.html" style="width:100%; height:300px; border:none;"></iframe>
 </div>
 
 40 films in one year… that’s impressive! Okay, dubbing is a bit of a cheat ... so here are two career profiles of Hollywood superstars for comparison.
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
+<div style="width: 100%; height: 300px; margin: 0 auto;">
   <iframe src="assets/img/career_Samuel L. Jackson.html" style="width:100%; height:300px; border:none;"></iframe>
 </div>
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
+<div style="width: 100%; height: 300px; margin: 0 auto;">
   <iframe src="assets/img/career_Johnny Depp.html" style="width:100%; height:300px; border:none;"></iframe>
 </div>
 
 One last example for the road, let's take a Sunday actor. In fact, the data set is mainly made up of profiles similar to that of our fourth candidate. We can't call his career a real one, but we have to consider all those people who have simply tried their hand at acting. 
 
-<div style="width: 100%; height: 600px; margin: 0 auto;">
+<div style="width: 100%; height: 300px; margin: 0 auto;">
   <iframe src="assets/img/career_Yao Ming.html" style="width:100%; height:300px; border:none;"></iframe>
 </div>
 
