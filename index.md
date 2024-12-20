@@ -238,7 +238,34 @@ After applying this list of criteria to the original list of actors, approximate
 
 By creating this graph, a list of directors related to successful actors was done. As an image is worth a 1000 words, here are 4000 words :
 
+<div style="margin-top: 20px;">
+  <h4 style="color: black; text-align: center;">Bipartite directed graph for a single director</h4>
+  <hr style="border-top: 1px dotted #ccc;" />
 
+  <div style="text-align: center;">
+    <label for="choice">Select a Director:</label>
+    <select id="choice" onchange="changeImage()" style="padding: 5px; margin-left: 10px;">
+      <option value="alex_def2">Ingmar Bergman</option>
+      <option value="Alex_def4">Steven Spielberg</option>
+      <option value="Alex_def1">Ernest Pintoff</option>
+      <option value="Alex_def3">Takeshi Kitano</option>
+    </select>
+  </div>
+
+  <div id="result" style="
+      height: 400px; /* Augmentation de la hauteur */
+      width: 80%; /* Augmentation de la largeur */
+      margin: 0px auto; /* Ajout d'espace autour */
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9; /* Fond légèrement gris */
+    ">
+    <p style="color: gray;">Select a director !</p>
+  </div>
+</div>
+<script src="img_list.js"></script>
 # pas oublier le graph
 
 
